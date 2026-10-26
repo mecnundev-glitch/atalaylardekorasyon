@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    overflow-x: clip;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-brand-black text-slate-100 antialiased selection:bg-brand-gold/30 selection:text-brand-gold-light;
+    min-height: 100vh;
+    overflow-x: clip;
+  }
+
+  /* Accessible focus indicators for keyboard navigation */
+  :focus-visible {
+    @apply outline-none ring-2 ring-brand-gold ring-offset-2 ring-offset-brand-black;
+  }
+
+  /* Minimum touch target size guidance for mobile interactive elements */
+  button, a, input, select, textarea {
+    @apply transition-colors duration-150;
+  }
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0B0D;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2D3546;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}

@@ -1,0 +1,14 @@
+# ====================================================================
+# ATALAYLAR DEKORASYON — ARAMA MOTORU YÖNERGELERİ (ROBOTS.TXT)
+# ====================================================================
+
+User-agent: *
+Allow: /
+
+# Yönetim paneli ve dahili API rotalarını arama motorlarına kapat
+Disallow: /admin
+Disallow: /admin/
+Disallow: /api/
+
+# Dinamik XML Site Haritası
+Sitemap: https://atalaylardekarasyon.com/sitemap.xml
