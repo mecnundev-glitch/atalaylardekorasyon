@@ -491,8 +491,8 @@ const { getWhatsAppUrl } = useSiteConfig()
 
 // SEO Metadata, Canonical & JSON-LD
 useAppSeo({
-  title: 'İzmir Alçı, Boya, İzolasyon & Tadilat',
-  description: 'İzmir genelinde profesyonel alçı dekorasyon, iç ve dış cephe boya, sıva, çatı izolasyonu, su ve ısı yalıtımı, anahtar teslim ev tadilatı. Yerinde ücretsiz keşif desteği.',
+  title: 'Atalaylar Dekorasyon | İzmir Dekorasyon ve Tadilat',
+  description: 'İzmir\'de dekorasyon ve tadilat hizmetleri için Atalaylar Dekorasyon ile iletişime geçin. Hizmetlerimizi inceleyin ve projeniz için teklif isteyin.',
   path: '/',
   image: '/images/hero-decoration.jpg',
   jsonLd: buildLocalBusinessSchema()

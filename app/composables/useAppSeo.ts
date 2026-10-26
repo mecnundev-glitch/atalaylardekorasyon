@@ -23,7 +23,7 @@ export interface SeoOptions {
  */
 export const useAppSeo = (options: SeoOptions) => {
   const runtime = useRuntimeConfig()
-  const siteUrl = ((runtime.public?.siteUrl as string) || 'https://atalaylardekarasyon.com').replace(/\/$/, '')
+  const siteUrl = ((runtime.public?.siteUrl as string) || 'https://www.atalaylardekorasyon.com').replace(/\/$/, '')
 
   // Temiz canonical URL (varsa query/hash parametreleri temizlenir)
   const cleanPath = (options.path || '/').split('?')[0]?.split('#')[0] || '/'
@@ -89,7 +89,7 @@ export const useAppSeo = (options: SeoOptions) => {
  * Sadece sayfada doğrulanabilir, gerçek işletme bilgilerini içerir.
  */
 export const buildLocalBusinessSchema = () => {
-  const siteUrl = 'https://atalaylardekarasyon.com'
+  const siteUrl = 'https://www.atalaylardekorasyon.com'
 
   return {
     '@context': 'https://schema.org',
@@ -161,7 +161,7 @@ export const buildServiceSchema = (service: ServiceItem, canonicalUrl: string) =
     provider: {
       '@type': 'HomeAndConstructionBusiness',
       name: BUSINESS_CONFIG.name,
-      url: 'https://atalaylardekarasyon.com',
+      url: 'https://www.atalaylardekorasyon.com',
       telephone: BUSINESS_CONFIG.contact.phone
     },
     areaServed: {

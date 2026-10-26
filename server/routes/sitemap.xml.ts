@@ -28,7 +28,7 @@ const STATIC_PROJECT_SLUGS = [
 ]
 
 export default defineEventHandler(async (event) => {
-  const siteUrl = (process.env.SITE_URL || 'https://atalaylardekarasyon.com').replace(/\/$/, '')
+  const siteUrl = (process.env.SITE_URL || 'https://www.atalaylardekorasyon.com').replace(/\/$/, '')
   const today = new Date().toISOString().split('T')[0]
 
   const urls: SitemapUrl[] = [

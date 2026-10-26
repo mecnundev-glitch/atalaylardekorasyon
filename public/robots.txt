@@ -11,4 +11,4 @@ Disallow: /admin/
 Disallow: /api/
 
 # Dinamik XML Site Haritası
-Sitemap: https://atalaylardekarasyon.com/sitemap.xml
+Sitemap: https://www.atalaylardekorasyon.com/sitemap.xml

@@ -17,8 +17,11 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'tr'
       },
-      title: 'Atalaylar Dekorasyon | İzmir Alçı, Boya, Yalıtım & Tadilat',
-      titleTemplate: '%s · Atalaylar Dekorasyon',
+      title: 'Atalaylar Dekorasyon | İzmir Dekorasyon ve Tadilat',
+      titleTemplate: (chunk?: string) => {
+        if (!chunk) return 'Atalaylar Dekorasyon | İzmir Dekorasyon ve Tadilat'
+        return chunk.includes('Atalaylar Dekorasyon') ? chunk : `${chunk} · Atalaylar Dekorasyon`
+      },
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -29,7 +32,8 @@ export default defineNuxtConfig({
         { name: 'theme-color', content: '#0A0B0D' },
         { property: 'og:site_name', content: 'Atalaylar Dekorasyon' },
         { property: 'og:locale', content: 'tr_TR' },
-        { name: 'twitter:card', content: 'summary_large_image' }
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'google-site-verification', content: 'W8B8tqn61qKBtmkIaY74U7dun9h1SzJk175o9iDLtvU' }
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -48,7 +52,7 @@ export default defineNuxtConfig({
     supabaseServiceRoleKey: process.env.SUPABASE_SECRET_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY || '',
     public: {
       // İstemci tarafında erişilebilir genel anahtarlar
-      siteUrl: process.env.SITE_URL || 'https://atalaylardekarasyon.com',
+      siteUrl: process.env.SITE_URL || 'https://www.atalaylardekorasyon.com',
       supabaseUrl: process.env.SUPABASE_URL || '',
       supabaseKey: process.env.SUPABASE_PUBLISHABLE_KEY || process.env.SUPABASE_KEY || '',
       siteName: process.env.NUXT_PUBLIC_SITE_NAME || 'Atalaylar Dekorasyon',

@@ -243,10 +243,10 @@ const resetFilters = () => {
   searchQuery.value = ''
 }
 
-// SEO ve Yapılandırılmış Veri (AggregateRating)
+// SEO ve Doğrulanmış Yapılandırılmış Veri
 useAppSeo({
   title: 'Müşteri Yorumları & Değerlendirmeleri | Atalaylar Dekorasyon İzmir',
-  description: 'İzmir genelinde alçı, boya, çatı ve komple tadilat hizmeti verdiğimiz müşterilerimizin gerçek yorumları. 4.9/5 müşteri memnuniyeti ve garantili işçilik.',
+  description: 'İzmir genelinde alçı, boya, çatı ve komple tadilat hizmetlerimize ilişkin müşteri değerlendirmeleri ve referanslar.',
   path: '/musteri-yorumlari',
   image: '/images/hero-decoration.jpg',
   jsonLd: [
@@ -254,20 +254,7 @@ useAppSeo({
       { name: 'Ana Sayfa', path: '/' },
       { name: 'Müşteri Yorumları', path: '/musteri-yorumlari' }
     ]),
-    {
-      '@context': 'https://schema.org',
-      '@type': 'HomeAndConstructionBusiness',
-      name: 'Atalaylar Dekorasyon',
-      url: 'https://atalaylardekarasyon.com',
-      aggregateRating: {
-        '@type': 'AggregateRating',
-        ratingValue: '4.9',
-        bestRating: '5',
-        worstRating: '1',
-        ratingCount: '48',
-        reviewCount: '48'
-      }
-    }
+    buildLocalBusinessSchema()
   ]
 })
 </script>

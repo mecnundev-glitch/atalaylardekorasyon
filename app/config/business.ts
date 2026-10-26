@@ -9,7 +9,7 @@ export const BUSINESS_CONFIG: BusinessConfig = {
     phoneFormatted: '+90 (544) 997 87 60',
     whatsapp: '905449978760',
     whatsappFormatted: '+90 544 997 87 60',
-    email: 'info@atalaylardekarasyon.com',
+    email: 'info@atalaylardekorasyon.com',
     address: 'İzmir / Türkiye',
     district: 'Merkez',
     city: 'İzmir',
