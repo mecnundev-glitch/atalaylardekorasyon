@@ -18,10 +18,7 @@ export default defineNuxtConfig({
         lang: 'tr'
       },
       title: 'Atalaylar Dekorasyon | İzmir Dekorasyon ve Tadilat',
-      titleTemplate: (chunk?: string) => {
-        if (!chunk) return 'Atalaylar Dekorasyon | İzmir Dekorasyon ve Tadilat'
-        return chunk.includes('Atalaylar Dekorasyon') ? chunk : `${chunk} · Atalaylar Dekorasyon`
-      },
+      titleTemplate: '%s · Atalaylar Dekorasyon',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -36,7 +33,9 @@ export default defineNuxtConfig({
         { name: 'google-site-verification', content: 'W8B8tqn61qKBtmkIaY74U7dun9h1SzJk175o9iDLtvU' }
       ],
       link: [
+        { rel: 'icon', type: 'image/png', href: '/favicon.png' },
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
         {

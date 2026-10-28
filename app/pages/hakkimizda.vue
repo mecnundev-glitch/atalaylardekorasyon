@@ -62,7 +62,7 @@
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <AppBadge variant="outline" size="sm" class="mb-3">
+            <AppBadge variant="gold" size="sm" class="mb-3">
               Biz Kimiz?
             </AppBadge>
             <h2 class="font-display text-2xl sm:text-3xl font-bold tracking-tight text-white">

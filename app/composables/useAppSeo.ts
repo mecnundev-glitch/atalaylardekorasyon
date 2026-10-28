@@ -99,7 +99,7 @@ export const buildLocalBusinessSchema = () => {
     alternateName: 'Atalaylar Dekorasyon İzmir',
     description: BUSINESS_CONFIG.description,
     url: siteUrl,
-    logo: `${siteUrl}/favicon.ico`,
+    logo: `${siteUrl}/logo.png`,
     image: `${siteUrl}/images/hero-decoration.jpg`,
     telephone: BUSINESS_CONFIG.contact.phone,
     email: BUSINESS_CONFIG.contact.email,
@@ -189,7 +189,7 @@ export const buildProjectSchema = (project: ProjectItem, canonicalUrl: string) =
     headline: project.title,
     description: project.summary,
     url: canonicalUrl,
-    image: project.afterImageUrl.startsWith('http') ? project.afterImageUrl : `https://atalaylardekarasyon.com${project.afterImageUrl}`,
+    image: project.afterImageUrl.startsWith('http') ? project.afterImageUrl : `https://www.atalaylardekorasyon.com${project.afterImageUrl}`,
     author: {
       '@type': 'HomeAndConstructionBusiness',
       name: BUSINESS_CONFIG.name
@@ -205,7 +205,7 @@ export const buildProjectSchema = (project: ProjectItem, canonicalUrl: string) =
  * Schema.org BreadcrumbList Şeması
  */
 export const buildBreadcrumbSchema = (items: BreadcrumbEntry[]) => {
-  const siteUrl = 'https://atalaylardekarasyon.com'
+  const siteUrl = 'https://www.atalaylardekorasyon.com'
 
   return {
     '@context': 'https://schema.org',

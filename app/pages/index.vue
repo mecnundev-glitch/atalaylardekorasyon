@@ -136,7 +136,7 @@
           size="md"
         />
 
-        <div class="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           <AppCard
             v-for="service in services"
             :key="service.slug"
@@ -447,10 +447,43 @@
           </p>
         </div>
       </div>
+    <!-- ================================================================= -->
+    <!-- 8. İZMİR İLÇELERİ HİZMET AĞI (Local SEO Interlinking) -->
+    <!-- ================================================================= -->
+    <section class="border-b border-brand-anthracite-border bg-brand-black-soft/30 py-12 sm:py-16">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8">
+          <div>
+            <AppBadge variant="gold" size="sm" dot class="mb-2">Yerel Hizmet Ağı</AppBadge>
+            <h2 class="font-display text-xl font-bold text-white sm:text-2xl">
+              İzmir'in Tüm İlçelerinde Yerinde Keşif
+            </h2>
+          </div>
+          <p class="text-xs text-slate-400 max-w-md">
+            Karşıyaka'dan Urla'ya, Bornova'dan Çiğli'ye İzmir'in tüm bölgelerine kendi mobil keşif ekibimiz ve uzman ustalarımızla ulaşıyoruz.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+          <NuxtLink
+            v-for="district in priorityDistricts"
+            :key="district.name"
+            :to="`/bolgeler/${district.slug}`"
+            class="group flex flex-col p-3 rounded-xl border border-brand-anthracite-border bg-brand-anthracite-card/50 hover:border-brand-gold/50 hover:bg-brand-anthracite-card transition-all"
+          >
+            <span class="text-xs font-semibold text-white group-hover:text-brand-gold transition-colors">
+              {{ district.name }}
+            </span>
+            <span class="text-[10px] text-slate-400 mt-1">
+              {{ district.highlight }}
+            </span>
+          </NuxtLink>
+        </div>
+      </div>
     </section>
 
     <!-- ================================================================= -->
-    <!-- 8. İZMİR ODAKLI İLETİŞİM / TEKLİF CTA -->
+    <!-- 9. İZMİR ODAKLI İLETİŞİM / TEKLİF CTA -->
     <!-- ================================================================= -->
     <ContactCtaSection />
   </div>
@@ -468,9 +501,11 @@ import {
   Sparkles,
   Layers,
   Paintbrush,
+  Building2,
   Hammer,
   Home,
   Shield,
+  Flame,
   Palette,
   FileText,
   BadgeDollarSign,
@@ -489,16 +524,7 @@ import { useSiteConfig } from '~/composables/useSiteConfig'
 
 const { getWhatsAppUrl } = useSiteConfig()
 
-// SEO Metadata, Canonical & JSON-LD
-useAppSeo({
-  title: 'Atalaylar Dekorasyon | İzmir Dekorasyon ve Tadilat',
-  description: 'İzmir\'de dekorasyon ve tadilat hizmetleri için Atalaylar Dekorasyon ile iletişime geçin. Hizmetlerimizi inceleyin ve projeniz için teklif isteyin.',
-  path: '/',
-  image: '/images/hero-decoration.jpg',
-  jsonLd: buildLocalBusinessSchema()
-})
-
-// 6 Core Services
+// 8 Core Services
 const services = [
   {
     title: 'Alçı Uygulamaları',
@@ -508,11 +534,18 @@ const services = [
     features: ['Akustik & Estetik Asma Tavan', 'Gizli Işık ve Gergi Tavan', 'Alçıpan Oda Bölme']
   },
   {
-    title: 'İç ve Dış Cephe Boya',
+    title: 'İç Cephe Boya',
     slug: 'ic-cephe-boya',
     icon: Paintbrush,
-    desc: 'Silikonlu dış cephe, İtalyan dekoratif efekt boya, silinebilir su bazlı iç mekan boya işçiliği.',
-    features: ['İtalyan Efekt & Mermer Boya', 'Dış Cephe Koruyucu Boya', 'Temiz Maskeleme Disiplini']
+    desc: 'Silinebilir su bazlı boyalar, İtalyan efekt, mermer desen ve tozsuz titiz maskeleme disiplini.',
+    features: ['İtalyan Efekt & Mermer Boya', 'Silinebilir Boya Seçenekleri', 'Tozsuz Maskeleme Koruması']
+  },
+  {
+    title: 'Dış Cephe Boya',
+    slug: 'dis-cephe-boya',
+    icon: Building2,
+    desc: 'İzmir iklimine ve deniz tuzuna dayanıklı silikonlu, akrilik koruyucu bina dış cephe boyaları.',
+    features: ['Silikonlu Su İtici Teknoloji', 'Güneş ve Neme Karşı UV Direnci', 'İskeleli Apartman Boyama']
   },
   {
     title: 'Sıva ve Duvar Uygulamaları',
@@ -525,15 +558,22 @@ const services = [
     title: 'Çatı İzolasyonu',
     slug: 'cati-izolasyonu',
     icon: Home,
-    desc: 'Kiremit altı membran, shingle, trapez sac ve su sızıntılarını kalıcı olarak önleyen profesyonel çatı yalıtımı.',
+    desc: 'Kiremit altı membran, shingle, sandviç panel ve su sızıntılarını önleyen profesyonel çatı yalıtımı.',
     features: ['Kiremit Altı Su Yalıtımı', 'Shingle & Sandviç Panel', 'Oluk & Dere İzolasyonu']
   },
   {
-    title: 'Su ve Isı Yalıtımı',
+    title: 'Su Yalıtımı',
     slug: 'su-yalitimi',
     icon: Shield,
-    desc: 'Bina mantolama, temel bohçalama, perde beton ve teras su izolasyonu ile yüksek enerji tasarrufu.',
-    features: ['Taşyünü & EPS Mantolama', 'Teras & Balkon Su Yalıtımı', '%40’a Varan Enerji Tasarrufu']
+    desc: 'Teras, balkon, perde beton ve temel bohçalama su yalıtımı ile sızıntılara kesin çözüm.',
+    features: ['Kırmadan Teras İzolasyonu', 'Balkon Sızıntı Çözümleri', 'Perde Beton Nem Bariyeri']
+  },
+  {
+    title: 'Isı Yalıtımı (Mantolama)',
+    slug: 'isi-yalitimi',
+    icon: Flame,
+    desc: 'Taşyünü ve EPS mantolama paket sistemleri ile faturalarda yüksek enerji tasarrufu ve konfor.',
+    features: ['Taşyünü & EPS Mantolama', '%50’ye Varan Tasarruf', 'Bina EKB Uyumlu Paket']
   },
   {
     title: 'Dekorasyon ve Tadilat',
@@ -542,6 +582,22 @@ const services = [
     desc: 'Komple daire, villa ve iş yeri yenileme; mutfak, banyo, elektrik ve sıhhi tesisat dahil anahtar teslim tadilat.',
     features: ['Komple Ev & Mutfak Yenileme', 'Banyo & Tesisat Revizyonu', 'Tek Elden Proje Yönetimi']
   }
+]
+
+// Öncelikli İzmir İlçe Ağı (Yerel SEO Link Havuzu)
+const priorityDistricts = [
+  { name: 'Karşıyaka', slug: 'karsiyaka-dekorasyon-tadilat', highlight: 'Asma Tavan & Boya' },
+  { name: 'Bornova', slug: 'bornova-boya-badana', highlight: 'Daire Tadilatı & Mantolama' },
+  { name: 'Urla', slug: 'urla-cati-izolasyonu', highlight: 'Villa Çatı & Teras İzolasyonu' },
+  { name: 'Çiğli', slug: 'cigli-alcipan-asma-tavan', highlight: 'Alçıpan & Cephe Boya' },
+  { name: 'Konak', slug: 'konak-daire-yenileme', highlight: 'Ofis & Ev Yenileme' },
+  { name: 'Buca', slug: 'buca-isi-yalitimi-mantolama', highlight: 'Bina Mantolama & Boya' },
+  { name: 'Gaziemir', slug: 'gaziemir-boya-tadilat', highlight: 'Boya Badana & Sıva' },
+  { name: 'Menemen', slug: 'menemen-cati-tamiri', highlight: 'Çatı Tamiri & Yalıtım' },
+  { name: 'Torbalı', slug: 'torbali-dis-cephe-mantolama', highlight: 'Dış Cephe & İzolasyon' },
+  { name: 'Bayraklı', slug: 'bayrakli-ofis-ev-tadilat', highlight: 'Ofis & Konut Dekorasyon' },
+  { name: 'Güzelbahçe', slug: 'guzelbahce-teras-su-yalitimi', highlight: 'Villa Renovasyon & Teras' },
+  { name: 'Narlıdere', slug: 'narlidere-boya-dekorasyon', highlight: 'İtalyan Boya & Alçı' }
 ]
 
 // Quality Pillars
@@ -663,4 +719,26 @@ const faqItems = [
     content: 'İşin kapsamına göre makul bir malzeme/başlangıç avansı sonrası, kalan bakiye iş tamamen bitip müşteriyle birlikte kontrol edildikten sonra tahsil edilir. Tüm aşamalar sözleşmede açıkça yazılır.'
   }
 ]
+
+// SEO Metadata, Canonical & JSON-LD
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqItems.map((item) => ({
+    '@type': 'Question',
+    name: item.title,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: item.content
+    }
+  }))
+}
+
+useAppSeo({
+  title: 'İzmir Tadilat & Dekorasyon | Ücretsiz Keşif | Atalaylar Yapı',
+  description: 'İzmir\'de anahtar teslim ev tadilatı, alçıpan asma tavan, boya badana, çatı izolasyonu ve mantolama. Yerinde ücretsiz keşif ve sözleşmeli teslimat: 0544 997 87 60.',
+  path: '/',
+  image: '/images/hero-decoration.jpg',
+  jsonLd: [buildLocalBusinessSchema(), faqSchema]
+})
 </script>

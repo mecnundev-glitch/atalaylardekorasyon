@@ -232,8 +232,10 @@ const filteredReviews = computed(() => {
 
 const getInitials = (name: string): string => {
   const parts = name.trim().split(' ')
-  if (parts.length >= 2) {
-    return `${parts[0][0]}${parts[parts.length - 1][0]}`.toUpperCase()
+  if (parts.length >= 2 && parts[0] && parts[parts.length - 1]) {
+    const first = parts[0][0] || 'M'
+    const last = parts[parts.length - 1]?.[0] || ''
+    return `${first}${last}`.toUpperCase()
   }
   return (name[0] || 'M').toUpperCase()
 }

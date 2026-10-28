@@ -6,10 +6,14 @@
         <!-- Brand Summary -->
         <div class="space-y-4">
           <div class="flex items-center space-x-3">
-            <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-brand-gold to-brand-black p-0.5 shadow-gold-sm">
-              <div class="flex h-full w-full items-center justify-center rounded-[10px] bg-brand-black font-display font-black text-brand-gold">
-                <ShieldCheck class="h-5 w-5 text-brand-gold" />
-              </div>
+            <div class="relative flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-brand-gold/40 bg-brand-black p-1 shadow-gold-sm">
+              <img
+                src="/logo.png"
+                alt="Atalaylar Dekorasyon Logo"
+                width="40"
+                height="40"
+                class="h-full w-full object-contain"
+              >
             </div>
             <div>
               <span class="block font-display text-base font-bold text-white">

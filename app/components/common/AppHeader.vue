@@ -50,10 +50,14 @@
         class="group flex items-center space-x-3 rounded-lg focus-visible:ring-2 focus-visible:ring-brand-gold"
         aria-label="Atalaylar Dekorasyon Ana Sayfa"
       >
-        <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-brand-gold via-brand-gold-dark to-brand-black p-0.5 shadow-gold-sm transition-transform group-hover:scale-105">
-          <div class="flex h-full w-full items-center justify-center rounded-[10px] bg-brand-black font-display font-black text-brand-gold">
-            <ShieldCheck class="h-6 w-6 text-brand-gold" />
-          </div>
+        <div class="relative flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-brand-gold/40 bg-brand-black p-1 shadow-gold-sm transition-transform group-hover:scale-105">
+          <img
+            src="/logo.png"
+            alt="Atalaylar Dekorasyon Logo"
+            width="44"
+            height="44"
+            class="h-full w-full object-contain"
+          >
         </div>
         <div>
           <span class="block font-display text-lg font-bold tracking-tight text-white transition-colors group-hover:text-brand-gold">
