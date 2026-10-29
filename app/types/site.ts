@@ -20,6 +20,7 @@ export interface BusinessContact {
 
 export interface BusinessConfig {
   name: string
+  masterCraftsman?: string
   tagline: string
   description: string
   legalName?: string
