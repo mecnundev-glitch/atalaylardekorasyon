@@ -201,7 +201,7 @@
             </h2>
 
             <p class="mt-5 text-sm leading-relaxed text-slate-300 sm:text-base">
-              <strong>Atalaylar Dekorasyon</strong>, İzmir ve çevre ilçelerde faaliyet gösteren; alçı dekorasyondan dış cephe boyaya, su ve ısı yalıtımından komple çatı izolasyonuna kadar yapı sektöründeki temel gereksinimleri profesyonel iş disipliniyle karşılayan bir uygulama firmasıdır.
+              <strong>Atalaylar Dekorasyon</strong>, <strong>Mehmet Usta (Mehmet Atalay)</strong> liderliğinde İzmir ve çevre ilçelerde faaliyet gösteren; alçı dekorasyondan dış cephe boyaya, su ve ısı yalıtımından komple çatı izolasyonuna kadar yapı sektöründeki temel gereksinimleri profesyonel iş disipliniyle karşılayan bir uygulama firmasıdır.
             </p>
 
             <p class="mt-3 text-sm leading-relaxed text-slate-400">
