@@ -737,8 +737,8 @@ const faqSchema = {
 }
 
 useAppSeo({
-  title: 'İzmir Tadilat & Dekorasyon | Ücretsiz Keşif | Atalaylar Yapı',
-  description: 'İzmir\'de anahtar teslim ev tadilatı, alçıpan asma tavan, boya badana, çatı izolasyonu ve mantolama. Yerinde ücretsiz keşif ve sözleşmeli teslimat: 0544 997 87 60.',
+  title: 'Atalaylar Dekorasyon | Mehmet Usta (Mehmet Atalay) - İzmir Tadilat & Boya',
+  description: 'İzmir\'de Mehmet Usta (Mehmet Atalay) güvencesiyle anahtar teslim ev tadilatı, alçıpan asma tavan, boya badana, çatı izolasyonu ve mantolama. Yerinde ücretsiz keşif: 0544 997 87 60.',
   path: '/',
   image: '/images/hero-decoration.jpg',
   jsonLd: [buildLocalBusinessSchema(), faqSchema]

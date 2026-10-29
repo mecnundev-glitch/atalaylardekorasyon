@@ -70,7 +70,7 @@
             </h2>
             <div class="mt-6 space-y-4 text-sm sm:text-base text-slate-300 leading-relaxed">
               <p>
-                <strong class="text-white">Atalaylar Dekorasyon</strong>, temelleri sağlam işçilik ve dürüst esnaflık anlayışı üzerine kurulmuş, İzmir merkezli bir yapı ve dekorasyon firmasıdır.
+                <strong class="text-white">Atalaylar Dekorasyon</strong>, <strong>Mehmet Usta (Mehmet Atalay)</strong> liderliğinde temelleri sağlam işçilik ve dürüst esnaflık anlayışı üzerine kurulmuş, İzmir merkezli bir yapı ve dekorasyon firmasıdır.
               </p>
               <p>
                 Sektörde karşılaşılan en büyük sorunlar olan <span class="text-brand-gold font-medium">"geciken teslimatlar, iş ortasında çıkarılan sürpriz ekstra masraflar ve arkasında moloz bırakan ekipler"</span> anlayışını tamamen reddediyoruz.
@@ -260,8 +260,8 @@ const breadcrumbItems = [
 ]
 
 useAppSeo({
-  title: 'Hakkımızda | İzmir Alçı, Boya, Yalıtım ve Tadilat Ustaları',
-  description: 'Atalaylar Dekorasyon; 15 yılı aşkın tecrübesiyle İzmir genelinde alçı tavan, boya, çatı izolasyonu, su yalıtımı ve komple tadilat hizmetleri sunmaktadır. Şeffaf sözleşme ve garantili işçilik.',
+  title: 'Hakkımızda | Mehmet Usta (Mehmet Atalay) - Atalaylar Dekorasyon İzmir',
+  description: 'Atalaylar Dekorasyon; Mehmet Usta (Mehmet Atalay) liderliğinde 15 yılı aşkın tecrübesiyle İzmir genelinde alçı tavan, boya, çatı izolasyonu, su yalıtımı ve komple tadilat hizmetleri sunmaktadır. Şeffaf sözleşme ve garantili işçilik.',
   path: '/hakkimizda',
   image: '/images/hero-decoration.jpg',
   jsonLd: [
