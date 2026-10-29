@@ -20,7 +20,7 @@
           <div class="text-left lg:col-span-7">
             <!-- Location Badge -->
             <AppBadge variant="gold" size="md" dot class="mb-6">
-              İzmir Genelinde Güvenilir Yapı & İzolasyon Çözümleri
+              İzmir Genelinde Mehmet Usta (Mehmet Atalay) Güvencesiyle
             </AppBadge>
 
             <!-- Main Heading (Single H1 for SEO) -->

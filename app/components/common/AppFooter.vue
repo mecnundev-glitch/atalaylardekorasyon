@@ -147,7 +147,7 @@
     <!-- Bottom Bar -->
     <div class="border-t border-white/5 bg-brand-black py-5 text-center text-xs text-slate-400">
       <div class="mx-auto flex max-w-7xl flex-col items-center justify-between px-4 sm:flex-row sm:px-6 lg:px-8">
-        <p>© {{ currentYear }} {{ config.name }}. Tüm Hakları Saklıdır.</p>
+        <p>© {{ currentYear }} {{ config.name }} — <strong>Mehmet Atalay (Mehmet Usta)</strong>. Tüm Hakları Saklıdır.</p>
         <div class="mt-3 flex space-x-4 text-[11px] sm:mt-0">
           <NuxtLink to="/yasal/gizlilik-politikasi" class="hover:text-brand-gold">Gizlilik Politikası</NuxtLink>
           <span>•</span>
