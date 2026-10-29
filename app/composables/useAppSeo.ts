@@ -95,10 +95,31 @@ export const buildLocalBusinessSchema = () => {
     '@context': 'https://schema.org',
     '@type': 'HomeAndConstructionBusiness',
     '@id': `${siteUrl}/#localbusiness`,
-    name: BUSINESS_CONFIG.name,
-    alternateName: 'Atalaylar Dekorasyon İzmir',
+    name: `${BUSINESS_CONFIG.name} - Mehmet Usta (Mehmet Atalay)`,
+    alternateName: [
+      'Atalaylar Dekorasyon',
+      'Mehmet Usta',
+      'Mehmet Atalay',
+      'Mehmet Usta Dekorasyon',
+      'Atalaylar Dekorasyon İzmir'
+    ],
     description: BUSINESS_CONFIG.description,
     url: siteUrl,
+    founder: {
+      '@type': 'Person',
+      name: 'Mehmet Atalay',
+      alternateName: 'Mehmet Usta',
+      jobTitle: 'Kurucu ve Dekorasyon Ustası',
+      telephone: BUSINESS_CONFIG.contact.phone
+    },
+    employee: [
+      {
+        '@type': 'Person',
+        name: 'Mehmet Atalay',
+        alternateName: 'Mehmet Usta',
+        jobTitle: 'Baş Usta (Boya, Alçı, İzolasyon ve Tadilat)'
+      }
+    ],
     logo: `${siteUrl}/logo.png`,
     image: `${siteUrl}/images/hero-decoration.jpg`,
     telephone: BUSINESS_CONFIG.contact.phone,

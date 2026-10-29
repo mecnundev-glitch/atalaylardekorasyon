@@ -27,13 +27,23 @@
           <p class="text-xs leading-relaxed text-slate-400">
             {{ config.description }}
           </p>
-          <div class="pt-2">
-            <p class="text-xs font-semibold uppercase tracking-wider text-slate-300">
-              Hizmet Bölgesi:
-            </p>
-            <p class="text-xs text-brand-gold-light">
-              İzmir (Tüm Merkez ve Çevre İlçeler)
-            </p>
+          <div class="pt-2 space-y-2">
+            <div>
+              <p class="text-xs font-semibold uppercase tracking-wider text-slate-300">
+                Usta & Yetkili:
+              </p>
+              <p class="text-xs font-bold text-brand-gold-light">
+                Mehmet Atalay (Mehmet Usta)
+              </p>
+            </div>
+            <div>
+              <p class="text-xs font-semibold uppercase tracking-wider text-slate-300">
+                Hizmet Bölgesi:
+              </p>
+              <p class="text-xs text-brand-gold-light">
+                İzmir (Tüm Merkez ve Çevre İlçeler)
+              </p>
+            </div>
           </div>
         </div>
 

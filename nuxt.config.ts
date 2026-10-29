@@ -17,17 +17,19 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'tr'
       },
-      title: 'Atalaylar Dekorasyon | İzmir Dekorasyon ve Tadilat',
-      titleTemplate: '%s · Atalaylar Dekorasyon',
+      title: 'Atalaylar Dekorasyon | Mehmet Usta (Mehmet Atalay) - İzmir Tadilat ve Boya',
+      titleTemplate: '%s · Mehmet Usta (Mehmet Atalay)',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           name: 'description',
-          content: 'İzmir genelinde alçı, boya, sıva, çatı izolasyonu, su ve ısı yalıtımı, komple anahtar teslim dekorasyon ve tadilat hizmetleri. Ücretsiz keşif ve profesyonel işçilik.'
+          content: 'İzmir genelinde Mehmet Usta (Mehmet Atalay) güvencesiyle alçı, boya, sıva, çatı izolasyonu, su ve ısı yalıtımı, komple anahtar teslim dekorasyon ve tadilat hizmetleri. Ücretsiz keşif ve profesyonel ustalık.'
         },
+        { name: 'author', content: 'Mehmet Atalay (Mehmet Usta)' },
+        { name: 'keywords', content: 'mehmet usta, mehmet atalay, atalaylar dekorasyon, izmir boya ustası, mehmet usta izmir, izmir tadilat ustası, alçıpan ustası mehmet atalay' },
         { name: 'theme-color', content: '#0A0B0D' },
-        { property: 'og:site_name', content: 'Atalaylar Dekorasyon' },
+        { property: 'og:site_name', content: 'Atalaylar Dekorasyon - Mehmet Usta (Mehmet Atalay)' },
         { property: 'og:locale', content: 'tr_TR' },
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'google-site-verification', content: 'W8B8tqn61qKBtmkIaY74U7dun9h1SzJk175o9iDLtvU' }
