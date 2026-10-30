@@ -26,10 +26,10 @@
         <div class="mt-8 space-y-6 text-xs sm:text-sm leading-relaxed text-slate-300">
           <section>
             <h2 class="font-display text-base font-semibold text-white mb-2">
-              1. Veri Sorumlusu
+              1. Veri Sorumlusu ve Yasal Unvan
             </h2>
             <p>
-              6698 sayılı Kişisel Verilerin Korunması Kanunu ("KVKK") uyarınca, <strong class="text-white">{{ config.name }}</strong> (İzmir / Türkiye) olarak "Veri Sorumlusu" sıfatıyla, web sitemiz üzerinden ilettiğiniz kişisel verilerinizi aşağıda açıklanan çerçevede işlemekteyiz.
+              6698 sayılı Kişisel Verilerin Korunması Kanunu ("KVKK") uyarınca, veri sorumlusu sıfatıyla şahıs işletmesi kaydı bulunan <strong class="text-white">Mehmet Atalay — Atalay Dekorasyon</strong> (Vergi Levhası Kayıtlı Unvanı: Mehmet Atalay) olarak, web sitemiz üzerinden ilettiğiniz kişisel verilerinizi aşağıda açıklanan çerçevede işlemekteyiz. Ofisimiz bulunmamakta olup tüm hizmetler İzmir genelinde müşterilerimizin adresine gidilerek yerinde yürütülmektedir.
             </p>
           </section>
 
@@ -121,8 +121,8 @@ import { useSiteConfig } from '~/composables/useSiteConfig'
 const { config } = useSiteConfig()
 
 useAppSeo({
-  title: 'KVKK Aydınlatma Metni | Atalaylar Dekorasyon',
-  description: 'Atalaylar Dekorasyon 6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamındaki aydınlatma metni, veri saklama ve silme prosedürleri.',
+  title: 'KVKK Aydınlatma Metni | Atalay Dekorasyon',
+  description: 'Atalay Dekorasyon 6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamındaki aydınlatma metni, veri saklama ve silme prosedürleri.',
   path: '/yasal/kvkk-aydinlatma-metni',
   jsonLd: buildBreadcrumbSchema([
     { name: 'Ana Sayfa', path: '/' },

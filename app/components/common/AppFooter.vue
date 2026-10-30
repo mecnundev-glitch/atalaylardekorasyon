@@ -6,21 +6,21 @@
         <!-- Brand Summary -->
         <div class="space-y-4">
           <div class="flex items-center space-x-3">
-            <div class="relative flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-brand-gold/40 bg-brand-black p-1 shadow-gold-sm">
+            <div class="relative flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-brand-gold/40 bg-brand-black p-1 shadow-gold-sm">
               <img
-                src="/logo.png"
-                alt="Atalaylar Dekorasyon Logo"
-                width="40"
-                height="40"
+                src="/favicon.svg"
+                alt="Atalay Dekorasyon Logo"
+                width="44"
+                height="44"
                 class="h-full w-full object-contain"
               >
             </div>
-            <div>
+            <div class="leading-tight">
               <span class="block font-display text-base font-bold text-white">
-                ATALAYLAR
+                ATALAY <span class="text-brand-gold">Dekorasyon</span>
               </span>
-              <span class="block text-[9px] uppercase tracking-widest text-brand-gold-light">
-                Dekorasyon & Yapı
+              <span class="block text-[11px] font-medium tracking-wide text-brand-gold-light/90">
+                Mehmet Usta
               </span>
             </div>
           </div>
@@ -58,6 +58,9 @@
             </li>
             <li>
               <NuxtLink to="/hakkimizda" class="transition-colors hover:text-brand-gold">Hakkımızda</NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/bolgeler" class="transition-colors hover:text-brand-gold">Hizmet Bölgelerimiz</NuxtLink>
             </li>
             <li>
               <NuxtLink to="/projeler" class="transition-colors hover:text-brand-gold">Projelerimiz</NuxtLink>
@@ -114,7 +117,7 @@
           </h3>
           <p class="flex items-start space-x-2">
             <MapPin class="mt-0.5 h-4 w-4 shrink-0 text-brand-gold" />
-            <span>{{ config.contact.address }}</span>
+            <span class="text-slate-300">Ofisimiz bulunmamaktadır; İzmir genelinde adresinize gelerek hizmet veriyoruz.</span>
           </p>
           <p class="flex items-center space-x-2">
             <Phone class="h-4 w-4 shrink-0 text-brand-gold" />
@@ -147,7 +150,10 @@
     <!-- Bottom Bar -->
     <div class="border-t border-white/5 bg-brand-black py-5 text-center text-xs text-slate-400">
       <div class="mx-auto flex max-w-7xl flex-col items-center justify-between px-4 sm:flex-row sm:px-6 lg:px-8">
-        <p>© {{ currentYear }} {{ config.name }} — <strong>Mehmet Atalay (Mehmet Usta)</strong>. Tüm Hakları Saklıdır.</p>
+        <div class="text-center sm:text-left">
+          <p>© 2026 Atalay Dekorasyon. Tüm Hakları Saklıdır.</p>
+          <p class="mt-0.5 text-[11px] text-brand-gold-light">Usta: Mehmet Usta</p>
+        </div>
         <div class="mt-3 flex space-x-4 text-[11px] sm:mt-0">
           <NuxtLink to="/yasal/gizlilik-politikasi" class="hover:text-brand-gold">Gizlilik Politikası</NuxtLink>
           <span>•</span>

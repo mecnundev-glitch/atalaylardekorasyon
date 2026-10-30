@@ -1,7 +1,7 @@
 import type { BusinessConfig } from '~/types/site'
 
 export const BUSINESS_CONFIG: BusinessConfig = {
-  name: 'Atalaylar Dekorasyon',
+  name: 'Atalay Dekorasyon',
   masterCraftsman: 'Mehmet Atalay (Mehmet Usta)',
   tagline: 'Mehmet Usta Güvencesiyle İzmir Yapı, İzolasyon ve Anahtar Teslim Dekorasyon',
   description: 'İzmir genelinde Mehmet Usta (Mehmet Atalay) öncülüğünde alçı, iç ve dış cephe boya, sıva, çatı izolasyonu, su ve ısı yalıtımı, komple anahtar teslim dekorasyon ve tadilat hizmetleri sunan güvenilir çözüm ortağınız.',
@@ -11,14 +11,18 @@ export const BUSINESS_CONFIG: BusinessConfig = {
     whatsapp: '905449978760',
     whatsappFormatted: '+90 544 997 87 60',
     email: 'info@atalaylardekorasyon.com',
-    address: 'İzmir / Türkiye',
-    district: 'Merkez',
+    address: 'Ofisimiz bulunmamaktadır; İzmir genelinde adresinize gelerek hizmet veriyoruz.',
+    streetAddress: 'İzmir Geneli Gezici Keşif & Uygulama Hizmeti',
+    neighborhood: 'İzmir Geneli',
+    postalCode: '35000',
+    district: 'İzmir',
     city: 'İzmir',
-    workingHours: 'Pazartesi - Cumartesi: 08:30 - 19:30'
+    workingHours: 'Pazartesi - Cumartesi: 08:30 - 19:30',
+    mapsUrl: 'https://maps.google.com/?q=İzmir'
   },
   social: {
-    instagram: 'https://instagram.com/atalaylardekorasyon',
-    facebook: 'https://facebook.com/atalaylardekorasyon'
+    instagram: 'https://instagram.com/atalaydekorasyon',
+    facebook: 'https://facebook.com/atalaydekorasyon'
   }
 }
 
@@ -39,6 +43,7 @@ export const MAIN_NAV_LINKS = [
       { label: 'Dekorasyon ve Tadilat', to: '/hizmetlerimiz/dekorasyon-ve-tadilat' }
     ]
   },
+  { label: 'Hizmet Bölgeleri', to: '/bolgeler' },
   { label: 'Projeler', to: '/projeler' },
   { label: 'Galeri', to: '/galeri' },
   { label: 'Müşteri Yorumları', to: '/musteri-yorumlari' },

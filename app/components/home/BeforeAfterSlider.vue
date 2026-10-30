@@ -10,7 +10,7 @@
       <!-- After Image (Base) -->
       <img
         :src="afterImage"
-        :alt="`${title} - Atalaylar Dekorasyon İzmir Uygulama Sonrası`"
+        :alt="`${title} - Mehmet Usta uygulaması · Atalay Dekorasyon`"
         loading="lazy"
         decoding="async"
         width="1200"
@@ -30,7 +30,7 @@
       >
         <img
           :src="beforeImage"
-          :alt="`${title} - Atalaylar Dekorasyon İzmir Uygulama Öncesi`"
+          :alt="`${title} - Mehmet Usta uygulaması · Atalay Dekorasyon Öncesi`"
           loading="lazy"
           decoding="async"
           width="1200"

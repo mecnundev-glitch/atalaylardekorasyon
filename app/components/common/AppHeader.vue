@@ -48,23 +48,23 @@
       <NuxtLink
         to="/"
         class="group flex items-center space-x-3 rounded-lg focus-visible:ring-2 focus-visible:ring-brand-gold"
-        aria-label="Atalaylar Dekorasyon Ana Sayfa"
+        aria-label="Atalay Dekorasyon Ana Sayfa"
       >
         <div class="relative flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-brand-gold/40 bg-brand-black p-1 shadow-gold-sm transition-transform group-hover:scale-105">
           <img
-            src="/logo.png"
-            alt="Atalaylar Dekorasyon Logo"
+            src="/favicon.svg"
+            alt="Atalay Dekorasyon Logo"
             width="44"
             height="44"
             class="h-full w-full object-contain"
           >
         </div>
-        <div>
-          <span class="block font-display text-lg font-bold tracking-tight text-white transition-colors group-hover:text-brand-gold">
-            ATALAYLAR
+        <div class="leading-tight">
+          <span class="block font-display text-base sm:text-lg font-bold tracking-tight text-white transition-colors group-hover:text-brand-gold">
+            ATALAY <span class="text-brand-gold">Dekorasyon</span>
           </span>
-          <span class="block text-[10px] font-medium uppercase tracking-[0.2em] text-brand-gold-light/90">
-            Dekorasyon & Yapı
+          <span class="block text-[11px] font-medium tracking-wide text-brand-gold-light/90">
+            Mehmet Usta
           </span>
         </div>
       </NuxtLink>

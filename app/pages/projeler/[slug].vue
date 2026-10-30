@@ -111,7 +111,7 @@
                 >
                   <img
                     :src="img.url"
-                    :alt="`${img.alt} - Atalaylar Dekorasyon İzmir`"
+                    :alt="`${img.alt} - Atalay Dekorasyon İzmir`"
                     loading="lazy"
                     decoding="async"
                     width="600"
@@ -261,7 +261,7 @@ const canonicalPath = `/projeler/${project.slug}`
 const canonicalUrl = `https://atalaylardekarasyon.com${canonicalPath}`
 
 useAppSeo({
-  title: `${project.title} | Atalaylar Dekorasyon`,
+  title: `${project.title} | Atalay Dekorasyon`,
   description: `${project.summary} İzmir ${project.location} uygulama fotoğrafları ve malzeme detayları.`,
   path: canonicalPath,
   image: project.afterImageUrl,

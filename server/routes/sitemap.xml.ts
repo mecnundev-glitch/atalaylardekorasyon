@@ -21,10 +21,24 @@ const STATIC_SERVICE_SLUGS = [
 const STATIC_PROJECT_SLUGS = [
   'karsiyaka-salon-asma-tavan-dekorasyon',
   'urla-villa-cati-izolasyonu-mantolama',
-  'bornova-ofis-bolme-duvar-alci',
-  'alsancak-daire-komple-tadilat-boya',
-  'cigli-dis-cephe-isi-yalitimi-mantolama',
-  'bostanli-mutfak-banyo-alcipan-isik'
+  'bornova-komple-daire-tadilat-boya',
+  'cigli-bina-dis-cephe-boya-onarim',
+  'cesme-teras-su-izolasyonu',
+  'gaziemir-ofis-alcipan-bolme-duvar',
+  'konak-guzelyali-ic-cephe-boya',
+  'karsiyaka-bostanli-banyo-yenileme'
+]
+
+const STATIC_DISTRICT_SLUGS = [
+  'bornova',
+  'karsiyaka',
+  'konak',
+  'buca',
+  'urla',
+  'cesme',
+  'cigli',
+  'bayrakli',
+  'gaziemir'
 ]
 
 export default defineEventHandler(async (event) => {
@@ -38,6 +52,7 @@ export default defineEventHandler(async (event) => {
     // 2. Ana Dizin ve Bölüm Sayfaları
     { loc: `${siteUrl}/hakkimizda`, lastmod: today, changefreq: 'monthly', priority: 0.9 },
     { loc: `${siteUrl}/hizmetlerimiz`, lastmod: today, changefreq: 'weekly', priority: 0.9 },
+    { loc: `${siteUrl}/bolgeler`, lastmod: today, changefreq: 'weekly', priority: 0.9 },
     { loc: `${siteUrl}/projeler`, lastmod: today, changefreq: 'weekly', priority: 0.9 },
     { loc: `${siteUrl}/galeri`, lastmod: today, changefreq: 'monthly', priority: 0.8 },
     { loc: `${siteUrl}/musteri-yorumlari`, lastmod: today, changefreq: 'weekly', priority: 0.85 },
@@ -54,6 +69,16 @@ export default defineEventHandler(async (event) => {
   for (const s of STATIC_SERVICE_SLUGS) {
     urls.push({
       loc: `${siteUrl}/hizmetlerimiz/${s}`,
+      lastmod: today,
+      changefreq: 'weekly',
+      priority: 0.85
+    })
+  }
+
+  // 5. İlçe Sayfaları (Anti-Doorway Yerel SEO)
+  for (const d of STATIC_DISTRICT_SLUGS) {
+    urls.push({
+      loc: `${siteUrl}/bolgeler/${d}`,
       lastmod: today,
       changefreq: 'weekly',
       priority: 0.85

@@ -73,8 +73,8 @@ import AppBadge from '~/components/ui/AppBadge.vue'
 import AppButton from '~/components/common/AppButton.vue'
 
 useAppSeo({
-  title: 'Çerez Politikası | Atalaylar Dekorasyon',
-  description: 'Atalaylar Dekorasyon web sitesi çerez politikası ve çerez yönetim süreçleri.',
+  title: 'Çerez Politikası | Atalay Dekorasyon',
+  description: 'Atalay Dekorasyon web sitesi çerez politikası ve çerez yönetim süreçleri.',
   path: '/yasal/cerez-politikasi',
   jsonLd: buildBreadcrumbSchema([
     { name: 'Ana Sayfa', path: '/' },

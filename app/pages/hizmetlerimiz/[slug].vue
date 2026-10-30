@@ -54,7 +54,7 @@
               <div class="relative aspect-[4/3] w-full overflow-hidden rounded-2xl bg-brand-black">
                 <img
                   :src="service.coverImageUrl"
-                  :alt="`${service.title} - İzmir Atalaylar Dekorasyon profesyonel uygulama`"
+                  :alt="`${service.title} - İzmir Atalay Dekorasyon profesyonel uygulama`"
                   width="800"
                   height="600"
                   fetchpriority="high"
@@ -280,7 +280,7 @@
             <div class="relative aspect-[16/10] w-full overflow-hidden bg-brand-anthracite">
               <img
                 :src="proj.afterImageUrl"
-                :alt="`${proj.title} - Atalaylar Dekorasyon İzmir`"
+                :alt="`${proj.title} - Atalay Dekorasyon İzmir`"
                 width="640"
                 height="400"
                 loading="lazy"
@@ -383,7 +383,7 @@ const canonicalPath = `/hizmetlerimiz/${service.slug}`
 const canonicalUrl = `https://atalaylardekarasyon.com${canonicalPath}`
 
 useAppSeo({
-  title: `${service.title} | İzmir Atalaylar Dekorasyon`,
+  title: `${service.title} | İzmir Atalay Dekorasyon`,
   description: `${service.shortDescription} İzmir'in tüm ilçelerinde yerinde ücretsiz keşif ve garantili işçilik.`,
   path: canonicalPath,
   image: service.coverImageUrl,

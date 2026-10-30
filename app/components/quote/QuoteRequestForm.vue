@@ -294,7 +294,7 @@
           >
           <label for="kvkk-consent" class="text-xs leading-relaxed text-slate-300">
             <span class="text-amber-400 font-bold">*</span>
-            Atalaylar Dekorasyon
+            Atalay Dekorasyon
             <NuxtLink
               to="/yasal/kvkk-aydinlatma-metni"
               target="_blank"
@@ -421,10 +421,12 @@ import { IZMIR_DISTRICTS } from '~/data/districts'
 
 interface Props {
   initialServiceSlug?: string
+  initialDistrict?: string
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  initialServiceSlug: ''
+  initialServiceSlug: '',
+  initialDistrict: ''
 })
 
 const { getAllServices } = useServices()
@@ -436,7 +438,7 @@ const form = reactive({
   fullName: '',
   phone: '',
   serviceSlug: props.initialServiceSlug || 'genel',
-  district: '',
+  district: props.initialDistrict || '',
   estimatedArea: undefined as number | undefined,
   notes: '',
   kvkkConsent: false,
@@ -727,13 +729,13 @@ const getWhatsAppSuccessUrl = () => {
   }
   const refCode = submitResponse.value?.referenceCode || ''
   const sName = form.fullName || ''
-  const message = `Merhaba Atalaylar Dekorasyon, ${refCode} referans kodlu keşif talebim için adres konumu ve fotoğrafları iletiyorum. İsmim: ${sName}.`
+  const message = `Merhaba Atalay Dekorasyon, ${refCode} referans kodlu keşif talebim için adres konumu ve fotoğrafları iletiyorum. İsmim: ${sName}.`
   return getWhatsAppUrl(message)
 }
 
 // Formu Doldurmadan Hızlı Keşif İsteği
 const getQuickWhatsAppUrl = () => {
-  let text = 'Merhaba Atalaylar Dekorasyon, yerinde keşif ve fiyat teklifi almak istiyorum.'
+  let text = 'Merhaba Atalay Dekorasyon, yerinde keşif ve fiyat teklifi almak istiyorum.'
   if (form.serviceSlug && form.serviceSlug !== 'genel') {
     const s = allServices.find(item => item.slug === form.serviceSlug)
     if (s) {

@@ -26,10 +26,10 @@
         <div class="mt-8 space-y-6 text-xs sm:text-sm leading-relaxed text-slate-300">
           <section>
             <h2 class="font-display text-base font-semibold text-white mb-2">
-              1. Genel Bilgilendirme
+              1. Genel Bilgilendirme ve İşletme Unvanı
             </h2>
             <p>
-              Atalaylar Dekorasyon olarak web sitemizi ziyaret eden kullanıcılarımızın gizliliğine ve kişisel verilerinin korunmasına büyük önem veriyoruz. Bu metin, siteyi kullanımınız sırasında hangi bilgilerin toplandığını ve nasıl korunduğunu açıklar.
+              <strong class="text-white">Mehmet Atalay — Atalay Dekorasyon</strong> (Vergi Levhası Kayıtlı Unvanı: Mehmet Atalay) olarak web sitemizi ziyaret eden kullanıcılarımızın gizliliğine ve kişisel verilerinin korunmasına büyük önem veriyoruz. Ofisimiz bulunmamakta olup, İzmir genelinde müşterilerimizin adresine bizzat giderek sunduğumuz hizmetlerde yasal mevzuata tam uyum esastır. Bu metin, siteyi kullanımınız sırasında hangi bilgilerin toplandığını ve nasıl korunduğunu açıklar.
             </p>
           </section>
 
@@ -80,8 +80,8 @@ import { useSiteConfig } from '~/composables/useSiteConfig'
 const { config } = useSiteConfig()
 
 useAppSeo({
-  title: 'Gizlilik Politikası | Atalaylar Dekorasyon',
-  description: 'Atalaylar Dekorasyon gizlilik ve veri güvenliği politikaları hakkında bilgilendirme.',
+  title: 'Gizlilik Politikası | Atalay Dekorasyon',
+  description: 'Atalay Dekorasyon gizlilik ve veri güvenliği politikaları hakkında bilgilendirme.',
   path: '/yasal/gizlilik-politikasi',
   jsonLd: buildBreadcrumbSchema([
     { name: 'Ana Sayfa', path: '/' },

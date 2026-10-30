@@ -37,7 +37,7 @@
             <div class="relative aspect-[16/10] overflow-hidden bg-brand-anthracite">
               <img
                 :src="service.coverImageUrl"
-                :alt="`${service.title} - İzmir Atalaylar Dekorasyon`"
+                :alt="`${service.title} - İzmir Atalay Dekorasyon`"
                 loading="lazy"
                 class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
               >
@@ -108,7 +108,7 @@
                 <span>Neden Sabit Paket Fiyat Vermiyoruz?</span>
               </h3>
               <p class="mt-2 text-xs leading-relaxed text-slate-300">
-                Her mekanın tavan yüksekliği, sıva hasar durumu, metrajı ve malzeme kalitesi tercihi farklıdır. Telefonda veya webde ezbere verilen fiyatlar sonradan sürpriz ek maliyetlere dönüşür. Atalaylar Dekorasyon olarak İzmir genelinde adresinize gelip <strong>ücretsiz keşif</strong> yapıyor; net metraj ve şeffaf malzeme listesiyle en doğru yazılı teklifi sunuyoruz.
+                Her mekanın tavan yüksekliği, sıva hasar durumu, metrajı ve malzeme kalitesi tercihi farklıdır. Telefonda veya webde ezbere verilen fiyatlar sonradan sürpriz ek maliyetlere dönüşür. Atalay Dekorasyon olarak İzmir genelinde adresinize gelip <strong>ücretsiz keşif</strong> yapıyor; net metraj ve şeffaf malzeme listesiyle en doğru yazılı teklifi sunuyoruz.
               </p>
             </div>
             <div class="md:col-span-4 flex justify-start md:justify-end">

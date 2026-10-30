@@ -71,7 +71,7 @@
 
                 <a
                   v-if="isWhatsAppConfigured"
-                  :href="getWhatsAppUrl('Merhaba Atalaylar Dekorasyon, keşif için fotoğraf göndermek istiyorum.')"
+                  :href="getWhatsAppUrl('Merhaba, Atalay Dekorasyon hizmetleriniz hakkında bilgi ve yerinde keşif randevusu almak istiyorum.')"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="flex items-center justify-between rounded-xl bg-emerald-600/90 p-3.5 text-xs font-semibold text-white transition-all hover:bg-emerald-600 min-h-[46px]"
@@ -198,7 +198,7 @@ const discoveryFaqItems = [
   {
     id: 'faq-2',
     title: 'Telefonda neden sabit fiyat vermiyorsunuz?',
-    content: 'Her yapının tavan yüksekliği, sıva hasar durumu, rutubet seviyesi ve malzeme ihtiyacı farklıdır. Telefonda görmeden verilen yaklaşık fiyatlar şantiye başladığında ek maliyetlere dönüşür. Atalaylar Dekorasyon olarak dürüstlük prensibimiz gereği yerinde net metraj çıkararak tek seferlik kesin teklif hazırlarız.'
+    content: 'Her yapının tavan yüksekliği, sıva hasar durumu, rutubet seviyesi ve malzeme ihtiyacı farklıdır. Telefonda görmeden verilen yaklaşık fiyatlar şantiye başladığında ek maliyetlere dönüşür. Atalay Dekorasyon olarak dürüstlük prensibimiz gereği yerinde net metraj çıkararak tek seferlik kesin teklif hazırlarız.'
   },
   {
     id: 'faq-3',
@@ -213,7 +213,7 @@ const discoveryFaqItems = [
 ]
 
 useAppSeo({
-  title: 'İzmir Ücretsiz Keşif ve Fiyat Teklifi | Atalaylar Dekorasyon',
+  title: 'İzmir Ücretsiz Keşif ve Fiyat Teklifi | Atalay Dekorasyon',
   description: 'İzmir genelinde alçı, boya, sıva, çatı izolasyonu ve komple tadilat projeleriniz için yerinde ücretsiz keşif talep edin. Net metraj ve şeffaf fiyat garantisi.',
   path: '/ucretsiz-kesif',
   image: '/images/hero-decoration.jpg',

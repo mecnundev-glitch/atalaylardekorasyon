@@ -47,7 +47,7 @@
         <div class="relative overflow-hidden rounded-2xl border border-brand-anthracite-border bg-brand-black shadow-2xl">
           <img
             :src="currentImage?.url"
-            :alt="currentImage?.alt || 'Atalaylar Dekorasyon İzmir Uygulama Görseli'"
+            :alt="currentImage?.alt || 'Atalay Dekorasyon İzmir Uygulama Görseli'"
             decoding="async"
             class="max-h-[75vh] w-auto max-w-full object-contain"
           >

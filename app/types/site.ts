@@ -12,6 +12,9 @@ export interface BusinessContact {
   whatsappFormatted: string
   email: string
   address: string
+  streetAddress?: string
+  neighborhood?: string
+  postalCode?: string
   district: string
   city: string
   workingHours: string

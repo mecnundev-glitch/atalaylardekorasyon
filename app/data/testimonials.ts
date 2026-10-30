@@ -32,7 +32,7 @@ export const TESTIMONIALS_DATA: TestimonialItem[] = [
     serviceTitle: 'Çatı İzolasyonu ve Kenet Kaplama',
     rating: 5,
     date: '28 Şubat 2026',
-    content: 'Mimarlık ofisimizin villa projesinde çatı su yalıtımı ve ısı yalıtım detayları için Atalaylar Dekorasyon ile çalıştık. Kullanılan mebranların kalitesi, köşe pah detayları ve yağmur oluğu bağlantıları kusursuz yapıldı. İzmir’de işini bu kadar profesyonel takip eden usta ekibi bulmak gerçekten zor.',
+    content: 'Mimarlık ofisimizin villa projesinde çatı su yalıtımı ve ısı yalıtım detayları için Atalay Dekorasyon ile çalıştık. Kullanılan mebranların kalitesi, köşe pah detayları ve yağmur oluğu bağlantıları kusursuz yapıldı. İzmir’de işini bu kadar profesyonel takip eden usta ekibi bulmak gerçekten zor.',
     projectScope: '320 m² Villa Çatı Yalıtımı',
     isFeatured: true
   },

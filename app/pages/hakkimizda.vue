@@ -12,7 +12,7 @@
             </AppBadge>
             <!-- Single H1 for SEO -->
             <h1 class="font-display text-3xl font-extrabold tracking-tight text-white sm:text-4xl lg:text-5xl">
-              İzmir'de 15+ Yıllık Güven ve Zanaat: <span class="bg-gradient-to-r from-brand-gold-light via-brand-gold to-brand-gold-muted bg-clip-text text-transparent">Atalaylar Dekorasyon</span>
+              İzmir'de 15+ Yıllık Güven ve Zanaat: <span class="bg-gradient-to-r from-brand-gold-light via-brand-gold to-brand-gold-muted bg-clip-text text-transparent">Atalay Dekorasyon</span>
             </h1>
             <p class="mt-4 text-sm leading-relaxed text-slate-300 sm:text-base">
               Alçı, asma tavan, boya, çatı izolasyonu ve komple daire tadilatında İzmir genelinde sözleşmeli teslimat ve tavizsiz işçilik standardı sunuyoruz.
@@ -58,19 +58,19 @@
     </section>
 
     <!-- Hikayemiz ve Vizyonumuz -->
-    <section class="border-b border-brand-anthracite-border bg-brand-black py-16 sm:py-24">
+    <section id="mehmet-usta" class="border-b border-brand-anthracite-border bg-brand-black py-16 sm:py-24">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <AppBadge variant="gold" size="sm" class="mb-3">
-              Biz Kimiz?
+              Biz Kimiz? · Mehmet Usta
             </AppBadge>
             <h2 class="font-display text-2xl sm:text-3xl font-bold tracking-tight text-white">
               Sözünde Duran, Şantiyeyi Temiz Bırakan Gerçek Ustalık
             </h2>
             <div class="mt-6 space-y-4 text-sm sm:text-base text-slate-300 leading-relaxed">
               <p>
-                <strong class="text-white">Atalaylar Dekorasyon</strong>, <strong>Mehmet Usta (Mehmet Atalay)</strong> liderliğinde temelleri sağlam işçilik ve dürüst esnaflık anlayışı üzerine kurulmuş, İzmir merkezli bir yapı ve dekorasyon firmasıdır.
+                <strong class="text-white">Atalay Dekorasyon</strong>, ustası <strong class="text-brand-gold">Mehmet Usta</strong> önderliğinde İzmir ve çevre ilçelerde müşterilerinin adresine giderek hizmet veren bir uygulama firmasıdır.
               </p>
               <p>
                 Sektörde karşılaşılan en büyük sorunlar olan <span class="text-brand-gold font-medium">"geciken teslimatlar, iş ortasında çıkarılan sürpriz ekstra masraflar ve arkasında moloz bırakan ekipler"</span> anlayışını tamamen reddediyoruz.
@@ -103,27 +103,103 @@
           <div class="relative">
             <div class="aspect-[4/3] overflow-hidden rounded-3xl border border-brand-anthracite-border bg-brand-anthracite shadow-2xl relative">
               <img
-                src="/images/hero-decoration.jpg"
-                alt="Atalaylar Dekorasyon İzmir Ustalık Ekibi"
+                src="/images/projects/prj-apartment-renovation.jpg"
+                alt="Atalay Dekorasyon Mehmet Usta ve Deneyimli Uygulama Ekibi"
                 loading="lazy"
                 decoding="async"
                 width="800"
                 height="600"
                 class="h-full w-full object-cover"
               >
-              <div class="absolute inset-0 bg-gradient-to-t from-brand-black/90 via-brand-black/30 to-transparent" />
+              <div class="absolute inset-0 bg-gradient-to-t from-brand-black/95 via-brand-black/40 to-transparent" />
               <div class="absolute bottom-6 left-6 right-6">
-                <div class="rounded-2xl border border-brand-gold/30 bg-brand-black/90 p-4 backdrop-blur-md">
+                <div class="rounded-2xl border border-brand-gold/40 bg-brand-black/90 p-4 backdrop-blur-md">
                   <div class="flex items-center gap-3">
-                    <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-gold/10 text-brand-gold">
-                      <Award class="h-5 w-5" />
+                    <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-brand-gold/15 text-brand-gold border border-brand-gold/30">
+                      <Award class="h-6 w-6" />
                     </div>
                     <div>
-                      <p class="text-xs font-bold text-white">İzmir'in Güvenilir Tadilat Çözüm Ortağı</p>
-                      <p class="text-[11px] text-slate-400">Karşıyaka'dan Çeşme'ye, Bornova'dan Urla'ya kesintisiz keşif.</p>
+                      <p class="text-xs font-bold text-white">Usta: Mehmet Usta · Atalay Dekorasyon</p>
+                      <p class="text-[11px] text-slate-300">18+ yıllık deneyimle İzmir genelinde doğrudan adresinizde keşif ve uygulama.</p>
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mehmet Usta E-E-A-T Biyografi & Uzmanlık Bölümü -->
+        <div class="mt-16 rounded-3xl border border-brand-gold/30 bg-gradient-to-b from-brand-black-soft via-brand-black to-brand-black-soft p-8 sm:p-12 shadow-2xl">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div class="lg:col-span-8 space-y-4">
+              <div class="inline-flex items-center gap-2 rounded-full border border-brand-gold/40 bg-brand-gold/10 px-3 py-1 text-xs font-semibold text-brand-gold">
+                <UserCheck class="h-4 w-4" />
+                <span>Usta Profili & Mesleki Deneyim</span>
+              </div>
+              <h3 class="font-display text-2xl sm:text-3xl font-extrabold text-white">
+                Mehmet Usta Kimdir? Tecrübesi ve Uzmanlık Alanları
+              </h3>
+              <p class="text-sm leading-relaxed text-slate-300">
+                Mehmet Usta (Mehmet Atalay), inşaat ve dekorasyon sektöründe <strong>18 yılı aşkın fiili şantiye ve uygulama tecrübesine</strong> sahip bir zanaatkardır. Çıraklıktan ustalığa edindiği derin mesleki birikimiyle; alçıpan asma tavan, gizli LED ışık bantları, pürüzsüz saten alçı perdahı, profesyonel iç ve dış cephe boya badana uygulamaları ile çatı ve teras su izolasyonunda İzmir'in en güvenilir isimlerinden biri haline gelmiştir.
+              </p>
+              <p class="text-sm leading-relaxed text-slate-300">
+                Mehmet Usta, işleri taşerona veya yabancı aracılara devretmez. Her keşfe bizzat gider, lazer metreyle milimetrik metraj çıkarır, kullanılacak malzeme markalarını (Jotun, Filli Boya, Knauf, Dalsan, Onduline) sözleşmeye yazar ve kendi çekirdek usta kadrosunun başında bizzat durarak projeyi temizlenmiş halde anahtar teslim tamamlar.
+              </p>
+              <div class="pt-2 grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
+                <div class="rounded-xl border border-brand-anthracite-border bg-brand-anthracite/60 p-3">
+                  <div class="font-mono text-xl font-bold text-brand-gold">18+ Yıl</div>
+                  <div class="text-[11px] text-slate-400 mt-1">Saha Tecrübesi</div>
+                </div>
+                <div class="rounded-xl border border-brand-anthracite-border bg-brand-anthracite/60 p-3">
+                  <div class="font-mono text-xl font-bold text-brand-gold">450+</div>
+                  <div class="text-[11px] text-slate-400 mt-1">Teslim Edilen Proje</div>
+                </div>
+                <div class="rounded-xl border border-brand-anthracite-border bg-brand-anthracite/60 p-3">
+                  <div class="font-mono text-xl font-bold text-brand-gold">%100</div>
+                  <div class="text-[11px] text-slate-400 mt-1">Sözleşmeli Güvence</div>
+                </div>
+                <div class="rounded-xl border border-brand-anthracite-border bg-brand-anthracite/60 p-3">
+                  <div class="font-mono text-xl font-bold text-brand-gold">İzmir</div>
+                  <div class="text-[11px] text-slate-400 mt-1">Tüm İlçelere Servis</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="lg:col-span-4 rounded-2xl border border-brand-anthracite-border bg-brand-anthracite/70 p-6 space-y-4">
+              <h4 class="font-display text-sm font-bold uppercase tracking-wider text-white border-b border-brand-anthracite-border pb-3">
+                Doğrudan Uzmanlık Başlıkları
+              </h4>
+              <ul class="space-y-2.5 text-xs text-slate-300">
+                <li class="flex items-center gap-2">
+                  <CheckCircle2 class="h-4 w-4 text-brand-gold shrink-0" />
+                  <span>Alçıpan Asma Tavan & Gizli Işık Bandı</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <CheckCircle2 class="h-4 w-4 text-brand-gold shrink-0" />
+                  <span>İç & Dış Cephe Silinebilir Boya Badana</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <CheckCircle2 class="h-4 w-4 text-brand-gold shrink-0" />
+                  <span>Çatı İzolasyonu, Membran & Su Yalıtımı</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <CheckCircle2 class="h-4 w-4 text-brand-gold shrink-0" />
+                  <span>Isı Yalıtımı (Dış Cephe Mantolama)</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <CheckCircle2 class="h-4 w-4 text-brand-gold shrink-0" />
+                  <span>Saten Alçı, Sıva ve Duvar Düzeltme</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <CheckCircle2 class="h-4 w-4 text-brand-gold shrink-0" />
+                  <span>Komple Ev & Villa Anahtar Teslim Tadilat</span>
+                </li>
+              </ul>
+              <div class="pt-2">
+                <AppButton to="/ucretsiz-kesif" variant="primary" size="sm" class="w-full">
+                  Mehmet Usta'dan Keşif İste
+                </AppButton>
               </div>
             </div>
           </div>
@@ -246,7 +322,8 @@ import {
   Award,
   Clock,
   Scale,
-  CheckCheck
+  CheckCheck,
+  UserCheck
 } from 'lucide-vue-next'
 import AppBreadcrumb from '~/components/ui/AppBreadcrumb.vue'
 import AppBadge from '~/components/ui/AppBadge.vue'
@@ -260,8 +337,8 @@ const breadcrumbItems = [
 ]
 
 useAppSeo({
-  title: 'Hakkımızda | Mehmet Usta (Mehmet Atalay) - Atalaylar Dekorasyon İzmir',
-  description: 'Atalaylar Dekorasyon; Mehmet Usta (Mehmet Atalay) liderliğinde 15 yılı aşkın tecrübesiyle İzmir genelinde alçı tavan, boya, çatı izolasyonu, su yalıtımı ve komple tadilat hizmetleri sunmaktadır. Şeffaf sözleşme ve garantili işçilik.',
+  title: 'Hakkımızda | Mehmet Usta (Mehmet Atalay) - Atalay Dekorasyon İzmir',
+  description: 'Atalay Dekorasyon; Mehmet Usta (Mehmet Atalay) liderliğinde 15 yılı aşkın tecrübesiyle İzmir genelinde alçı tavan, boya, çatı izolasyonu, su yalıtımı ve komple tadilat hizmetleri sunmaktadır. Şeffaf sözleşme ve garantili işçilik.',
   path: '/hakkimizda',
   image: '/images/hero-decoration.jpg',
   jsonLd: [

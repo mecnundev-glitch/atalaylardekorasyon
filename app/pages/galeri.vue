@@ -45,7 +45,7 @@
           >
             <img
               :src="img.url"
-              :alt="`${img.alt} - Atalaylar Dekorasyon İzmir`"
+              :alt="`${img.alt} - Mehmet Usta uygulaması · Atalay Dekorasyon`"
               loading="lazy"
               decoding="async"
               width="600"
@@ -118,7 +118,7 @@ const breadcrumbItems = [
 ]
 
 useAppSeo({
-  title: 'Uygulama ve Şantiye Galerisi | Atalaylar Dekorasyon İzmir',
+  title: 'Uygulama ve Şantiye Galerisi | Atalay Dekorasyon İzmir',
   description: 'İzmir genelinde gerçekleştirdiğimiz asma tavan, dış cephe, boya, çatı ve yalıtım işçiliği öncesi ve sonrası fotoğrafları.',
   path: '/galeri',
   image: '/images/hero-decoration.jpg',

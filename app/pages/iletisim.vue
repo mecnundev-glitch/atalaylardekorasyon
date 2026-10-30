@@ -33,8 +33,36 @@
     <!-- Main Content Grid -->
     <section class="py-12 sm:py-16">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <!-- 4 İletişim Kartı (Telefon, WhatsApp, E-posta, Çalışma Saatleri) -->
-        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4 mb-16">
+        <!-- İletişim & Adres Bilgi Kartları -->
+        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 mb-10">
+          <!-- Adres & Atölye Kartı (Google Haritalar & Yerel SEO İçin Öncelikli) -->
+          <div class="rounded-2xl border-2 border-brand-gold/40 bg-brand-anthracite/90 p-6 shadow-xl transition-transform hover:-translate-y-1 relative overflow-hidden sm:col-span-2 lg:col-span-1">
+            <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-brand-gold/20 text-brand-gold">
+              <MapPin class="h-6 w-6" />
+            </div>
+            <h3 class="mt-4 font-display text-base font-bold text-white flex items-center justify-between">
+              <span>Hizmet & Keşif Modeli</span>
+              <span class="text-[10px] uppercase font-semibold text-brand-gold bg-brand-gold/10 px-2 py-0.5 rounded-full border border-brand-gold/30">Tüm İzmir</span>
+            </h3>
+            <p class="mt-2 text-xs font-medium text-slate-200 leading-relaxed">
+              {{ config.contact.address }}
+            </p>
+            <p class="mt-2 text-[11px] text-slate-400">
+              Karşıyaka'dan Çeşme'ye, Bornova'dan Urla'ya tüm ilçelerde doğrudan adresinize gelerek ücretsiz keşif ve metraj yapıyoruz.
+            </p>
+            <div class="mt-4">
+              <a
+                href="https://maps.google.com/?q=İzmir"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center text-xs font-semibold text-brand-gold hover:underline"
+              >
+                İzmir Hizmet Ağını Haritada Gör
+                <ArrowUpRight class="ml-1 h-3.5 w-3.5" />
+              </a>
+            </div>
+          </div>
+
           <!-- Telefon Kartı -->
           <div class="rounded-2xl border border-brand-anthracite-border bg-brand-anthracite/70 p-6 shadow-lg transition-transform hover:-translate-y-1">
             <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-brand-gold/10 text-brand-gold">
@@ -78,7 +106,7 @@
             <div class="mt-4">
               <a
                 v-if="isWhatsAppConfigured"
-                :href="getWhatsAppUrl('Merhaba Atalaylar Dekorasyon, keşif hakkında bilgi almak istiyorum.')"
+                :href="getWhatsAppUrl('Merhaba, Atalay Dekorasyon hizmetleriniz hakkında bilgi ve yerinde keşif randevusu almak istiyorum.')"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="inline-flex items-center text-sm font-semibold text-emerald-400 hover:underline"
@@ -94,7 +122,9 @@
               </span>
             </div>
           </div>
+        </div>
 
+        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 mb-16">
           <!-- E-posta Kartı -->
           <div class="rounded-2xl border border-brand-anthracite-border bg-brand-anthracite/70 p-6 shadow-lg transition-transform hover:-translate-y-1">
             <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-sky-500/10 text-sky-400">
@@ -149,7 +179,7 @@
                 Hizmet Verdiğimiz İlçeler
               </h3>
               <p class="mt-2 text-xs text-slate-300 leading-relaxed">
-                Atalaylar Dekorasyon olarak İzmir'in 30 ilçesine kendi uzman usta kadromuz ve araçlarımızla yerinde keşif hizmeti sunuyoruz.
+                Atalay Dekorasyon olarak İzmir'in 30 ilçesine kendi uzman usta kadromuz ve araçlarımızla yerinde keşif hizmeti sunuyoruz.
               </p>
 
               <div class="mt-4 flex flex-wrap gap-1.5 max-h-64 overflow-y-auto pr-1">
@@ -194,10 +224,10 @@ import { IZMIR_DISTRICTS } from '~/data/districts'
 const { config, isPhoneConfigured, isWhatsAppConfigured, getPhoneCallUrl, getWhatsAppUrl } = useSiteConfig()
 
 useAppSeo({
-  title: 'İletişim & Keşif Randevusu | Atalaylar Dekorasyon İzmir',
-  description: 'Atalaylar Dekorasyon İzmir ile doğrudan iletişime geçin. Telefon, WhatsApp ve teklif formu üzerinden yerinde ücretsiz keşif randevusu oluşturun.',
+  title: 'İletişim & Keşif Randevusu | Atalay Dekorasyon İzmir',
+  description: 'Atalay Dekorasyon İzmir ile doğrudan iletişime geçin. Ofisimiz bulunmamakta olup İzmir genelinde adresinize gelerek yerinde ücretsiz keşif yapıyoruz.',
   path: '/iletisim',
-  image: '/images/hero-decoration.jpg',
+  image: '/images/projects/prj-apartment-renovation.jpg',
   jsonLd: [
     buildLocalBusinessSchema(),
     buildBreadcrumbSchema([

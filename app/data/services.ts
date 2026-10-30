@@ -7,7 +7,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     title: 'Alçı Uygulamaları',
     subtitle: 'Asma Tavan, Gizli Işık Bandı ve Alçıpan Bölme Duvar Sistemleri',
     shortDescription: 'İzmir genelinde asma tavan, LED gizli aydınlatma bantları, kartonpiyer, bölme duvar ve saten alçı yüzey düzeltme hizmetleri.',
-    description: 'Atalaylar Dekorasyon olarak konut, ofis ve ticari mekanlarınızda modern mimari trendlere uygun alçıpan ve alçı çözümleri üretiyoruz. Akustik ve ısı yalıtımı sağlayan asma tavanlardan şık gizli ışık havuzlarına, alanları fonksiyonel kılan alçıpan bölme duvarlardan pürüzsüz saten alçı perdahına kadar tüm uygulamaları birinci sınıf malzeme ve lazer terazili titiz işçilikle teslim ediyoruz.',
+    description: 'Atalay Dekorasyon olarak konut, ofis ve ticari mekanlarınızda modern mimari trendlere uygun alçıpan ve alçı çözümleri üretiyoruz. Akustik ve ısı yalıtımı sağlayan asma tavanlardan şık gizli ışık havuzlarına, alanları fonksiyonel kılan alçıpan bölme duvarlardan pürüzsüz saten alçı perdahına kadar tüm uygulamaları birinci sınıf malzeme ve lazer terazili titiz işçilikle teslim ediyoruz.',
     scope: [
       'Alçıpan asma tavan ve modüler tavan sistemleri',
       'LED ve spot uyumlu gizli ışık havuzu ve tavan bantları',
@@ -45,7 +45,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Lazer terazili milimetrik kot ve gönye hassasiyeti'
     ],
     iconName: 'Layers',
-    coverImageUrl: '/images/hero-decoration.jpg',
+    coverImageUrl: '/images/projects/prj-drywall-ceiling.jpg',
     features: [
       'Lazer Terazili Montaj',
       'Neme Dayanıklı Yeşil Plaka Seçeneği',
@@ -70,7 +70,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     title: 'İç Cephe Boya',
     subtitle: 'Silinebilir Su Bazlı Boyalar, İtalyan Efekt ve Dekoratif Uygulamalar',
     shortDescription: 'İzmir genelinde ev ve iş yerleri için silinebilir antibakteriyel boyalar, tavan boyası, İtalyan mermer efekt ve dekoratif boya işçiliği.',
-    description: 'İç mekan boya işçiliği sadece duvara renk vermek değil, zemin hazırlığı ve kusursuz yüzey oluşturma sanatıdır. Atalaylar Dekorasyon olarak İzmir genelinde eşyalı veya boş mekanlarınızda titiz maskeleme yaparak toza ve boya damlamalarına karşı %100 koruma sağlıyoruz. Duvarlardaki çatlak ve çivileri onarıyor, astar uygulayarak kaliteli marka boyalarla uzun yıllar silinebilen, nefes alan ve leke tutmayan ferah alanlar oluşturuyoruz.',
+    description: 'İç mekan boya işçiliği sadece duvara renk vermek değil, zemin hazırlığı ve kusursuz yüzey oluşturma sanatıdır. Atalay Dekorasyon olarak İzmir genelinde eşyalı veya boş mekanlarınızda titiz maskeleme yaparak toza ve boya damlamalarına karşı %100 koruma sağlıyoruz. Duvarlardaki çatlak ve çivileri onarıyor, astar uygulayarak kaliteli marka boyalarla uzun yıllar silinebilen, nefes alan ve leke tutmayan ferah alanlar oluşturuyoruz.',
     scope: [
       'Tüm mobilya, kapı, süpürgelik ve zeminlerin kalın naylonla maskelenmesi',
       'Duvarlardaki çatlak, çukur ve kabarmaların kazınıp alçıyla tamiri',
@@ -108,7 +108,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Leke bırakmayan profesyonel kadife ve saten rulolar'
     ],
     iconName: 'Paintbrush',
-    coverImageUrl: '/images/hero-decoration.jpg',
+    coverImageUrl: '/images/projects/prj-interior-painting.jpg',
     features: [
       'Mobilya ve Zemin Maskeleme Koruması',
       'Silinebilir & Leke Tutmaz Marka Boyalar',
@@ -133,7 +133,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     title: 'Dış Cephe Boya',
     subtitle: 'Zorlu Hava Koşullarına Dayanıklı Silikonlu ve Akrilik Cephe Boyaları',
     shortDescription: 'İzmir’in güneşi, nemi ve deniz tuzuna dayanıklı silikonlu dış cephe boyası, çatlak köprüleme ve iskeleli profesyonel cephe yenileme.',
-    description: 'İzmir ve Ege sahil kuşağındaki binalar; yüksek UV ışınları, deniz tuzu, nem ve kış rüzgarları nedeniyle dış cephe yıpranmasına maruz kalır. Atalaylar Dekorasyon olarak binaların dış cephesindeki sıva çatlaklarını ve su alan noktaları onarıyor; su itici silikonlu, elastik ve nefes alan yüksek korumalı dış cephe boyalarıyla binanızı hem güzelleştiriyor hem de dış etkenlere karşı zırh gibi koruyoruz.',
+    description: 'İzmir ve Ege sahil kuşağındaki binalar; yüksek UV ışınları, deniz tuzu, nem ve kış rüzgarları nedeniyle dış cephe yıpranmasına maruz kalır. Atalay Dekorasyon olarak binaların dış cephesindeki sıva çatlaklarını ve su alan noktaları onarıyor; su itici silikonlu, elastik ve nefes alan yüksek korumalı dış cephe boyalarıyla binanızı hem güzelleştiriyor hem de dış etkenlere karşı zırh gibi koruyoruz.',
     scope: [
       'Bina çevresine güvenlikli çelik iskele kurulumu ve sökümü',
       'Eski kabarmış sıva ve boya katmanlarının basınçlı su/kazıma ile temizliği',
@@ -171,7 +171,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'İSG mevzuatına uygun güvenlikli iskele ve emniyet kemeri kullanımı'
     ],
     iconName: 'Building',
-    coverImageUrl: '/images/project-facade.jpg',
+    coverImageUrl: '/images/projects/prj-facade-scaffolding.jpg',
     features: [
       'Su İtici Silikon Teknolojisi',
       'Güneş ve Neme Karşı UV Direnci',
@@ -196,7 +196,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     title: 'Sıva ve Duvar Uygulamaları',
     subtitle: 'Kara Sıva, Alçı Sıva, Çatı & Duvar Tamiratı ve Dekoratif Kaplamalar',
     shortDescription: 'Kaba inşaat kara sıva, pürüzsüz makineli ve el alçı sıva, kültür taşı, dekoratif tuğla kaplama ve duvar örme ustalık hizmetleri.',
-    description: 'Dayanıklı ve düzgün bir yapının temeli doğru sıva uygulamasından geçer. Atalaylar Dekorasyon olarak terazi ve mastar gönyesinde kara sıva, pürüzsüz alçı sıva, dış cephe kaba-ince sıva ve dekoratif taş duvar kaplama hizmetleri veriyoruz. Çatlak, dökülen veya rutubetten kabaran duvarları kökten kazıyarak doğru harç karışımı ve aderans kimyasallarıyla ilk günkü sağlamlığına kavuşturuyoruz.',
+    description: 'Dayanıklı ve düzgün bir yapının temeli doğru sıva uygulamasından geçer. Atalay Dekorasyon olarak terazi ve mastar gönyesinde kara sıva, pürüzsüz alçı sıva, dış cephe kaba-ince sıva ve dekoratif taş duvar kaplama hizmetleri veriyoruz. Çatlak, dökülen veya rutubetten kabaran duvarları kökten kazıyarak doğru harç karışımı ve aderans kimyasallarıyla ilk günkü sağlamlığına kavuşturuyoruz.',
     scope: [
       'Tuğla ve gazbeton üzeri terazi ve mastarında kara sıva uygulaması',
       'İç mekanlarda pürüzsüz yüzey oluşturan alçı sıva çekimi',
@@ -234,7 +234,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Lazer terazi ile mastar kontrolü'
     ],
     iconName: 'Hammer',
-    coverImageUrl: '/images/project-facade.jpg',
+    coverImageUrl: '/images/projects/prj-office-partition.jpg',
     features: [
       'Mastar ve Lazer Terazili Düzlemsellik',
       'Fileli Köşe Profili Desteği',
@@ -255,7 +255,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     title: 'Çatı İzolasyonu',
     subtitle: 'Kiremit Altı Membran, Shingle, Sandviç Panel ve Gizli Dere Yalıtımı',
     shortDescription: 'İzmir’de su sızdıran çatılara kesin çözüm: Kiremit aktarma, arduvazlı membran kaplama, shingle, oluk tamiratı ve ısı yalıtımlı çatı izolasyonu.',
-    description: 'Yağmur mevsiminde evlerin en büyük kabusu olan tavan akıntıları, kiremit kırıkları ve çatı sızıntılarını kalıcı olarak çözüyoruz. Atalaylar Dekorasyon olarak çatı iskeletini inceliyor; yıpranmış ahşap veya demir konstrüksiyonu onarıyor, OSB kaplama üzeri polyester keçeli bitümlü membran veya arduvazlı membran şaloma aleviyle kaynatıyoruz. Baca dipleri ve su tahliye derelerini titizlikle yalıtarak binanızı su hasarlarına karşı güvenceye alıyoruz.',
+    description: 'Yağmur mevsiminde evlerin en büyük kabusu olan tavan akıntıları, kiremit kırıkları ve çatı sızıntılarını kalıcı olarak çözüyoruz. Atalay Dekorasyon olarak çatı iskeletini inceliyor; yıpranmış ahşap veya demir konstrüksiyonu onarıyor, OSB kaplama üzeri polyester keçeli bitümlü membran veya arduvazlı membran şaloma aleviyle kaynatıyoruz. Baca dipleri ve su tahliye derelerini titizlikle yalıtarak binanızı su hasarlarına karşı güvenceye alıyoruz.',
     scope: [
       'Mevcut kiremitlerin toplanması, yıkanması ve kırıkların yenilenmesi (Çatı Aktarma)',
       'Çatı ahşap veya profil karkasının güçlendirilmesi, meyil kontrolü',
@@ -293,7 +293,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Su göllenmesini engelleyen minimum %5 akıntı meyli'
     ],
     iconName: 'Home',
-    coverImageUrl: '/images/project-facade.jpg',
+    coverImageUrl: '/images/projects/prj-roof-insulation.jpg',
     features: [
       'Şaloma Kaynaklı Çift Kat Membran',
       'Baca Dibi ve Gizli Dere Kilitlemesi',
@@ -318,7 +318,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     title: 'Su Yalıtımı',
     subtitle: 'Temel Bohçalama, Perde Beton, Teras, Balkon ve Islak Hacim İzolasyonu',
     shortDescription: 'Yapılarınızı korozyondan ve nemden koruyan çimento/poliüretan esaslı teras, balkon, temel ve banyo su yalıtım çözümleri.',
-    description: 'Su sızıntısı binaların taşıyıcı demir donatısını paslandırarak deprem güvenliğini ciddi biçimde tehdit eder. Atalaylar Dekorasyon olarak İzmir genelinde teraslardan alt kata su akması, temelden yükselen rutubet, banyo/duş gideri sızıntıları gibi kritik sorunlara profesyonel kimyasal ve membranlı su yalıtım sistemleri uyguluyoruz. Seramik altı elastik yalıtım harçları ve UV dayanımlı poliüretan likit membranlarla yapınızı sudan tamamen arındırıyoruz.',
+    description: 'Su sızıntısı binaların taşıyıcı demir donatısını paslandırarak deprem güvenliğini ciddi biçimde tehdit eder. Atalay Dekorasyon olarak İzmir genelinde teraslardan alt kata su akması, temelden yükselen rutubet, banyo/duş gideri sızıntıları gibi kritik sorunlara profesyonel kimyasal ve membranlı su yalıtım sistemleri uyguluyoruz. Seramik altı elastik yalıtım harçları ve UV dayanımlı poliüretan likit membranlarla yapınızı sudan tamamen arındırıyoruz.',
     scope: [
       'Açık teras ve balkonlarda seramik altı veya seramik üzeri su izolasyonu',
       'Bina temelleri ve perde betonlarda bohçalama su yalıtımı',
@@ -356,7 +356,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Kimyasal maddelere ve klora dayanıklı yapı'
     ],
     iconName: 'Shield',
-    coverImageUrl: '/images/project-facade.jpg',
+    coverImageUrl: '/images/projects/prj-terrace-waterproofing.jpg',
     features: [
       'Pah Bantlı Köşe Güçlendirmesi',
       '24 Saat Su Doldurma Testi',
@@ -377,7 +377,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     title: 'Isı Yalıtımı (Mantolama)',
     subtitle: 'Dış Cephe Taşyünü ve Karbonlu EPS ile %50’ye Varan Enerji Tasarrufu',
     shortDescription: 'İzmir’de yazın serin, kışın sıcak evler için TSE belgeli taşyünü ve EPS mantolama, küf/yoğuşma önleme ve dış cephe yenileme.',
-    description: 'Doğru yapılan bir dış cephe ısı yalıtımı (mantolama), klima ve doğalgaz faturalarınızı %40 ila %50 oranında düşürürken evinizin değerini artırır. Atalaylar Dekorasyon olarak İzmir’in sıcak yazlarında serinliği koruyan, kışın ise duvarlardaki soğuk hava köprülerini ve nem/küf oluşumunu engelleyen taşyünü veya karbonlu EPS mantolama sistemleri kuruyoruz. Dübelleme, fileli sıva ve dekoratif kaplamayı paket sistem garantisiyle uyguluyoruz.',
+    description: 'Doğru yapılan bir dış cephe ısı yalıtımı (mantolama), klima ve doğalgaz faturalarınızı %40 ila %50 oranında düşürürken evinizin değerini artırır. Atalay Dekorasyon olarak İzmir’in sıcak yazlarında serinliği koruyan, kışın ise duvarlardaki soğuk hava köprülerini ve nem/küf oluşumunu engelleyen taşyünü veya karbonlu EPS mantolama sistemleri kuruyoruz. Dübelleme, fileli sıva ve dekoratif kaplamayı paket sistem garantisiyle uyguluyoruz.',
     scope: [
       'Bina cephesine uygun yalıtım levhası seçimi (A1 sınıfı yanmaz taşyünü veya karbonlu EPS)',
       'Subasman profilinin lazer kotunda çakılması',
@@ -415,7 +415,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Bina enerji kimlik belgesi (EKB) alımına uygun paket sistem'
     ],
     iconName: 'Flame',
-    coverImageUrl: '/images/project-facade.jpg',
+    coverImageUrl: '/images/projects/prj-roof-insulation.jpg',
     features: [
       '%50’ye Varan Fatura Tasarrufu',
       'A1 Sınıfı Yanmaz Taşyünü Seçeneği',
@@ -440,7 +440,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     title: 'Dekorasyon ve Tadilat',
     subtitle: 'Komple Ev, Ofis ve Mutfak/Banyo Anahtar Teslim Yenileme',
     shortDescription: 'İzmir genelinde elektrik, su tesisatı, seramik, alçı, boya ve zemin kaplama dahil anahtar teslim komple tadilat ve mimari dekorasyon.',
-    description: 'Ev veya ofis yenilemek yorucu ve karmaşık bir süreç olmak zorunda değil. Atalaylar Dekorasyon olarak tesisat ustası, alçıcı, boyacı, seramikçi ayrı ayrı arama derdini ortadan kaldırıyoruz. Projenizi tek elden, sözleşmeli ve taahhüt edilen tarihte teslim ediyoruz. Yıkım ve kırım işlerinden yeni elektrik/su altyapısına, banyo-mutfak seramiklerinden asma tavan ve İtalyan boyaya kadar her adımı profesyonelce koordine ediyoruz.',
+    description: 'Ev veya ofis yenilemek yorucu ve karmaşık bir süreç olmak zorunda değil. Atalay Dekorasyon olarak tesisat ustası, alçıcı, boyacı, seramikçi ayrı ayrı arama derdini ortadan kaldırıyoruz. Projenizi tek elden, sözleşmeli ve taahhüt edilen tarihte teslim ediyoruz. Yıkım ve kırım işlerinden yeni elektrik/su altyapısına, banyo-mutfak seramiklerinden asma tavan ve İtalyan boyaya kadar her adımı profesyonelce koordine ediyoruz.',
     scope: [
       'Mevcut duvar, zemin ve banyo fayanslarının kırılarak molozların atılması',
       'Sıhhi tesisat (PPRC temiz su ve PVC atık su boruları) altyapısının sıfırlanması',
@@ -478,7 +478,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Ayrıntılı teknik şartname ve teslim takvimli sözleşme'
     ],
     iconName: 'Palette',
-    coverImageUrl: '/images/hero-decoration.jpg',
+    coverImageUrl: '/images/projects/prj-apartment-renovation.jpg',
     features: [
       'Tek Elden Proje Yönetimi',
       'Tesisat, Seramik, Alçı ve Boya Bir Arada',

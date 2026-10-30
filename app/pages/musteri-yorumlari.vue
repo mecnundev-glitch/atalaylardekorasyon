@@ -12,7 +12,7 @@
             </AppBadge>
             <!-- Single H1 for SEO -->
             <h1 class="font-display text-3xl font-extrabold tracking-tight text-white sm:text-4xl lg:text-5xl">
-              İzmir Müşterilerimizin Gözünden: <span class="bg-gradient-to-r from-brand-gold-light via-brand-gold to-brand-gold-muted bg-clip-text text-transparent">Atalaylar Dekorasyon Yorumları</span>
+              İzmir Müşterilerimizin Gözünden: <span class="bg-gradient-to-r from-brand-gold-light via-brand-gold to-brand-gold-muted bg-clip-text text-transparent">Atalay Dekorasyon Yorumları</span>
             </h1>
             <p class="mt-4 text-sm leading-relaxed text-slate-300 sm:text-base">
               Karşıyaka'dan Urla'ya, Bornova'dan Alsancak'a kadar evini ve iş yerini bize emanet eden müşterilerimizin gerçek deneyimleri.
@@ -247,7 +247,7 @@ const resetFilters = () => {
 
 // SEO ve Doğrulanmış Yapılandırılmış Veri
 useAppSeo({
-  title: 'Müşteri Yorumları & Değerlendirmeleri | Atalaylar Dekorasyon İzmir',
+  title: 'Müşteri Yorumları & Değerlendirmeleri | Atalay Dekorasyon İzmir',
   description: 'İzmir genelinde alçı, boya, çatı ve komple tadilat hizmetlerimize ilişkin müşteri değerlendirmeleri ve referanslar.',
   path: '/musteri-yorumlari',
   image: '/images/hero-decoration.jpg',

@@ -31,6 +31,11 @@
               </span>
             </h1>
 
+            <!-- Craftsman & Brand Credential -->
+            <p class="mt-3 text-xs sm:text-sm font-semibold tracking-wide text-brand-gold">
+              Usta: Mehmet Usta · Atalay Dekorasyon
+            </p>
+
             <!-- Subtitle Description -->
             <p class="mt-6 text-sm leading-relaxed text-slate-300 sm:text-base md:text-lg max-w-2xl">
               Alçı, boya, sıva, çatı izolasyonu, su ve ısı yalıtımı ile komple ev ve ofis tadilatı. İzmir'in tüm ilçelerinde yerinde ücretsiz keşif, kaliteli malzeme ve sözleşmeli teslimat.
@@ -87,7 +92,7 @@
                 <div class="relative aspect-[4/3] w-full overflow-hidden rounded-2xl bg-brand-black">
                   <img
                     src="/images/hero-decoration.jpg"
-                    alt="Atalaylar Dekorasyon - İzmir lüks alçı tavan, gizli aydınlatma ve modern salon dekorasyon uygulaması"
+                    alt="İzmir lüks alçı tavan, gizli aydınlatma ve modern salon dekorasyonu - Mehmet Usta uygulaması · Atalay Dekorasyon"
                     width="800"
                     height="600"
                     fetchpriority="high"
@@ -201,7 +206,7 @@
             </h2>
 
             <p class="mt-5 text-sm leading-relaxed text-slate-300 sm:text-base">
-              <strong>Atalaylar Dekorasyon</strong>, <strong>Mehmet Usta (Mehmet Atalay)</strong> liderliğinde İzmir ve çevre ilçelerde faaliyet gösteren; alçı dekorasyondan dış cephe boyaya, su ve ısı yalıtımından komple çatı izolasyonuna kadar yapı sektöründeki temel gereksinimleri profesyonel iş disipliniyle karşılayan bir uygulama firmasıdır.
+              <strong>Atalay Dekorasyon</strong>, <strong>Mehmet Usta (Mehmet Atalay)</strong> liderliğinde İzmir ve çevre ilçelerde faaliyet gösteren; alçı dekorasyondan dış cephe boyaya, su ve ısı yalıtımından komple çatı izolasyonuna kadar yapı sektöründeki temel gereksinimleri profesyonel iş disipliniyle karşılayan bir uygulama firmasıdır.
             </p>
 
             <p class="mt-3 text-sm leading-relaxed text-slate-400">
@@ -257,7 +262,7 @@
         <SectionHeading
           badge="Neden Biz?"
           title="Fark Yaratan Hizmet Yaklaşımımız"
-          description="İzmir'de dekorasyon ve yalıtım yaptırırken neden Atalaylar Dekorasyon'u tercih etmelisiniz?"
+          description="İzmir'de dekorasyon ve yalıtım yaptırırken neden Atalay Dekorasyon'u tercih etmelisiniz?"
           align="center"
           size="md"
         />
@@ -327,10 +332,10 @@
         <!-- Before / After Slider Showcase -->
         <div class="mb-12">
           <BeforeAfterSlider
-            before-image="/images/hero-decoration.jpg"
-            after-image="/images/project-facade.jpg"
-            title="Urla / Müstakil Konut Çatı İzolasyonu ve Dış Cephe Mantolama"
-            description="Kiremit altı su yalıtımı, taşyünü mantolama ve silikonlu dış cephe boya uygulaması."
+            before-image="/images/projects/prj-before-old-wall.jpg"
+            after-image="/images/projects/prj-apartment-renovation.jpg"
+            title="Bornova / 3+1 Daire Komple Anahtar Teslim Tadilat & Boya"
+            description="Eski sıva ve dökülen duvarların kazınması, pürüzsüz saten alçı, modern asma tavan ve silinebilir boya uygulaması."
             before-label="Eski / İşlem Öncesi"
             after-label="Teslim Edilen Yeni Durum"
           />
@@ -349,7 +354,7 @@
             <div class="relative aspect-[16/10] overflow-hidden bg-brand-anthracite">
               <img
                 :src="project.image"
-                :alt="`${project.title} - ${project.location} Atalaylar Dekorasyon`"
+                :alt="`${project.title} - ${project.location} Mehmet Usta uygulaması · Atalay Dekorasyon`"
                 loading="lazy"
                 class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
               >
@@ -627,7 +632,7 @@ const qualityPillars = [
   {
     icon: Wrench,
     title: 'Uzman Usta Kadrosu',
-    description: 'Alçı, boya, çatı ve yalıtımın her biri için alanında deneyimli, mesleki yeterliliğe sahip ustalarımızla uygulama yaparız.'
+    description: 'Mehmet Usta’nın deneyimli ekibiyle alçı, boya, çatı ve yalıtımın her birinde doğrudan işin başında durarak mesleki yeterliliğe sahip ustalarımızla uygulama yaparız.'
   },
   {
     icon: FileText,
@@ -737,8 +742,8 @@ const faqSchema = {
 }
 
 useAppSeo({
-  title: 'Atalaylar Dekorasyon | Mehmet Usta (Mehmet Atalay) - İzmir Tadilat & Boya',
-  description: 'İzmir\'de Mehmet Usta (Mehmet Atalay) güvencesiyle anahtar teslim ev tadilatı, alçıpan asma tavan, boya badana, çatı izolasyonu ve mantolama. Yerinde ücretsiz keşif: 0544 997 87 60.',
+  title: 'İzmir Tadilat & Dekorasyon | Ücretsiz Keşif | Atalay Dekorasyon',
+  description: 'İzmir\'de anahtar teslim ev tadilatı, alçıpan asma tavan, boya badana, çatı izolasyonu ve mantolama. Mehmet Usta güvencesiyle yerinde ücretsiz keşif ve sözleşmeli teslimat: 0544 997 87 60.',
   path: '/',
   image: '/images/hero-decoration.jpg',
   jsonLd: [buildLocalBusinessSchema(), faqSchema]

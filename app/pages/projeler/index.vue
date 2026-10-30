@@ -69,7 +69,7 @@
             <div class="relative aspect-[16/10] overflow-hidden bg-brand-anthracite">
               <img
                 :src="project.afterImageUrl"
-                :alt="`${project.title} - ${project.location} Atalaylar Dekorasyon`"
+                :alt="`${project.title} - ${project.location} Mehmet Usta uygulaması · Atalay Dekorasyon`"
                 loading="lazy"
                 decoding="async"
                 width="640"
