@@ -25,9 +25,9 @@
 
             <!-- Main Heading (Single H1 for SEO) -->
             <h1 class="font-display text-3xl font-extrabold tracking-tight text-white sm:text-4xl md:text-5xl lg:text-[52px] lg:leading-[1.15]">
-              İzmir Yapı, İzolasyon ve Anahtar Teslim Dekorasyonda
+              İzmir Tadilat ve Dekorasyon Hizmetleri
               <span class="block mt-2 bg-gradient-to-r from-brand-gold-light via-brand-gold to-brand-gold-muted bg-clip-text text-transparent">
-                Ustalık ve Şeffaf Güven
+                Anahtar Teslim Ustalık ve Güvenilir Çözümler
               </span>
             </h1>
 
@@ -37,8 +37,8 @@
             </p>
 
             <!-- Subtitle Description -->
-            <p class="mt-6 text-sm leading-relaxed text-slate-300 sm:text-base md:text-lg max-w-2xl">
-              Alçı, boya, sıva, çatı izolasyonu, su ve ısı yalıtımı ile komple ev ve ofis tadilatı. İzmir'in tüm ilçelerinde yerinde ücretsiz keşif, kaliteli malzeme ve sözleşmeli teslimat.
+            <p class="mt-4 text-sm leading-relaxed text-slate-300 sm:text-base md:text-lg max-w-2xl">
+              Alçı, boya, sıva, çatı izolasyonu, su ve ısı yalıtımı ile komple ev ve ofis tadilatı. İzmir genelinde yerinde ücretsiz keşif, kaliteli malzeme ve sözleşmeli teslimat.
             </p>
 
             <!-- Call to Actions -->
@@ -72,11 +72,11 @@
               </div>
               <div class="flex items-center gap-2">
                 <CheckCircle2 class="h-4 w-4 shrink-0 text-brand-gold" />
-                <span>TSE Belgeli Malzemeler</span>
+                <span>TSE Standartlarında Malzeme</span>
               </div>
               <div class="flex items-center gap-2">
                 <CheckCircle2 class="h-4 w-4 shrink-0 text-brand-gold" />
-                <span>Zamanında Teslim Garantisi</span>
+                <span>Zamanında ve Planlı Teslim</span>
               </div>
               <div class="flex items-center gap-2">
                 <CheckCircle2 class="h-4 w-4 shrink-0 text-brand-gold" />
@@ -298,93 +298,107 @@
     </section>
 
     <!-- ================================================================= -->
-    <!-- 5. PROJELER VE ÖNCESİ / SONRASI VİTRİNİ (Demo Olarak İşaretli) -->
+    <!-- 5. ŞEFFAF FİYATLANDIRMA VE KEŞİF YAKLAŞIMI -->
     <!-- ================================================================= -->
     <section class="border-b border-brand-anthracite-border bg-brand-black py-16 sm:py-24">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">
           <div class="text-left max-w-2xl">
             <AppBadge variant="gold" size="sm" dot class="mb-3">
-              Referans Uygulamalar
+              Şeffaf Fiyatlandırma
             </AppBadge>
             <h2 class="font-display text-2xl font-bold tracking-tight text-white sm:text-3xl lg:text-4xl">
-              Tamamlanan Uygulamalar ve Dönüşümler
+              Doğru Keşif, Net Metraj ve Gerçek Maliyet
             </h2>
-            <p class="mt-3 text-xs sm:text-sm text-slate-400">
-              İzmir genelinde gerçekleştirdiğimiz örnek işçilik detayları ve interaktif öncesi/sonrası kıyaslaması.
+            <p class="mt-3 text-xs sm:text-sm text-slate-300">
+              İzmir'de her yapının yaşı, cephesi ve nem oranı farklıdır. Ezbere fiyat vermek yerine yerinde ücretsiz inceleme yapıyor, yapınızın ihtiyacına göre şeffaf maliyet tablosu hazırlıyoruz.
             </p>
           </div>
 
           <div class="shrink-0 flex items-center gap-3">
-            <span class="rounded-full bg-brand-anthracite-border px-3 py-1 text-[11px] font-medium text-slate-300">
-              Örnek Gösterim / Demo Vitrini
-            </span>
             <NuxtLink
-              to="/projeler"
+              to="/fiyat-rehberi"
               class="inline-flex items-center text-xs font-semibold text-brand-gold hover:text-white transition-colors"
             >
-              <span>Tüm Projeler</span>
+              <span>Fiyat Rehberini İnceleyin</span>
               <ArrowRight class="ml-1 h-3.5 w-3.5" />
             </NuxtLink>
           </div>
         </div>
 
-        <!-- Before / After Slider Showcase -->
-        <div class="mb-12">
-          <BeforeAfterSlider
-            before-image="/images/projects/prj-before-old-wall.jpg"
-            after-image="/images/projects/prj-apartment-renovation.jpg"
-            title="Bornova / 3+1 Daire Komple Anahtar Teslim Tadilat & Boya"
-            description="Eski sıva ve dökülen duvarların kazınması, pürüzsüz saten alçı, modern asma tavan ve silinebilir boya uygulaması."
-            before-label="Eski / İşlem Öncesi"
-            after-label="Teslim Edilen Yeni Durum"
-          />
-        </div>
-
-        <!-- Project Cards Grid -->
-        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          <AppCard
-            v-for="(project, pIdx) in demoProjects"
-            :key="pIdx"
-            variant="default"
-            padding="none"
-            hoverable
-            class="overflow-hidden flex flex-col text-left group"
-          >
-            <div class="relative aspect-[16/10] overflow-hidden bg-brand-anthracite">
-              <img
-                :src="project.image"
-                :alt="`${project.title} - ${project.location} Mehmet Usta uygulaması · Atalay Dekorasyon`"
-                loading="lazy"
-                class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-              >
-              <div class="absolute top-3 left-3 flex gap-2">
-                <span class="rounded-full bg-brand-black/80 px-2.5 py-0.5 text-[10px] font-semibold text-brand-gold-light border border-brand-gold/30 backdrop-blur-md">
-                  {{ project.category }}
-                </span>
-                <span class="rounded-full bg-white/10 px-2 py-0.5 text-[10px] text-slate-300 backdrop-blur-md">
-                  Örnek Uygulama
-                </span>
+        <!-- 3-Column Cost Factors Card Grid -->
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-3 mb-10">
+          <AppCard variant="default" padding="md" class="text-left flex flex-col justify-between">
+            <div>
+              <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-anthracite border border-brand-gold/30 text-brand-gold mb-4">
+                <Search class="h-5 w-5" />
               </div>
+              <h3 class="font-display text-base font-semibold text-white">
+                Yerinde Lazer Metraj
+              </h3>
+              <p class="mt-2 text-xs leading-relaxed text-slate-300">
+                Tahmini veya yuvarlak hesap yerine lazer metre ile net tavan, duvar ve zemin alanlarını çıkarırız. Yalnızca yapılan işin karşılığını ödersiniz.
+              </p>
             </div>
-
-            <div class="p-5 flex-1 flex flex-col justify-between">
-              <div>
-                <p class="text-[11px] font-medium text-brand-gold-muted">{{ project.location }}</p>
-                <h3 class="mt-1 font-display text-base font-semibold text-white group-hover:text-brand-gold transition-colors">
-                  {{ project.title }}
-                </h3>
-                <p class="mt-2 text-xs text-slate-400 line-clamp-2">{{ project.desc }}</p>
-              </div>
-
-              <div class="mt-4 pt-4 border-t border-brand-anthracite-border/70 flex items-center justify-between text-xs">
-                <span class="text-slate-400 text-[11px]">{{ project.duration }}</span>
-                <NuxtLink to="/ucretsiz-kesif" class="text-brand-gold font-semibold hover:underline">
-                  Benzer İş İçin Teklif Al
-                </NuxtLink>
-              </div>
+            <div class="mt-4 pt-3 border-t border-brand-anthracite-border/70 text-[11px] text-brand-gold-muted">
+              Sürpriz ek maliyet riskini sıfırlar
             </div>
           </AppCard>
+
+          <AppCard variant="default" padding="md" class="text-left flex flex-col justify-between">
+            <div>
+              <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-anthracite border border-brand-gold/30 text-brand-gold mb-4">
+                <ShieldCheck class="h-5 w-5" />
+              </div>
+              <h3 class="font-display text-base font-semibold text-white">
+                Açık Malzeme Belirtimi
+              </h3>
+              <p class="mt-2 text-xs leading-relaxed text-slate-300">
+                Teklifimizde kullanılacak astarın markası, boyanın silinebilirlik sınıfı ve yalıtım membranının kalınlığı açıkça yazılır; muadil belirsizliği yaşanmaz.
+              </p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-brand-anthracite-border/70 text-[11px] text-brand-gold-muted">
+              TSE belgeli orijinal marka taahhüdü
+            </div>
+          </AppCard>
+
+          <AppCard variant="default" padding="md" class="text-left flex flex-col justify-between">
+            <div>
+              <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-anthracite border border-brand-gold/30 text-brand-gold mb-4">
+                <FileText class="h-5 w-5" />
+              </div>
+              <h3 class="font-display text-base font-semibold text-white">
+                Sözleşmeli Teslimat Takvimi
+              </h3>
+              <p class="mt-2 text-xs leading-relaxed text-slate-300">
+                İş başlangıç tarihi, aşama aşama bitiş takvimi ve teslim günü sözleşmede netleştirilir. Süreç boyunca Mehmet Usta bizzat kontrolleri sağlar.
+              </p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-brand-anthracite-border/70 text-[11px] text-brand-gold-muted">
+              Planlı ve disiplinli uygulama
+            </div>
+          </AppCard>
+        </div>
+
+        <!-- Banner with CTA to Price Guide & Free Inspection -->
+        <div class="rounded-2xl border border-brand-gold/30 bg-gradient-to-r from-brand-anthracite via-brand-anthracite-card to-brand-black p-6 sm:p-8 flex flex-col md:flex-row items-center justify-between gap-6">
+          <div class="text-left max-w-xl">
+            <h3 class="font-display text-lg sm:text-xl font-bold text-white">
+              Tadilat veya İzolasyon Bütçenizi Planlayın
+            </h3>
+            <p class="mt-2 text-xs sm:text-sm text-slate-300">
+              Boya badana, asma tavan, çatı izolasyonu ve komple tadilatta maliyeti nelerin belirlediğini rehberimizden öğrenebilir veya ücretsiz keşif talep edebilirsiniz.
+            </p>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-3 w-full md:w-auto shrink-0">
+            <AppButton to="/fiyat-rehberi" variant="secondary" size="md">
+              <span>Fiyat Rehberi</span>
+              <ArrowRight class="ml-1.5 h-4 w-4" />
+            </AppButton>
+            <AppButton to="/ucretsiz-kesif" variant="primary" size="md">
+              <span>Ücretsiz Keşif Al</span>
+            </AppButton>
+          </div>
         </div>
       </div>
     </section>
@@ -526,7 +540,6 @@ import AppCard from '~/components/ui/AppCard.vue'
 import SectionHeading from '~/components/ui/SectionHeading.vue'
 import ContactCtaSection from '~/components/common/ContactCtaSection.vue'
 import AppAccordion from '~/components/ui/AppAccordion.vue'
-import BeforeAfterSlider from '~/components/home/BeforeAfterSlider.vue'
 import { useSiteConfig } from '~/composables/useSiteConfig'
 
 const { getWhatsAppUrl } = useSiteConfig()
@@ -572,7 +585,7 @@ const services = [
     title: 'Su Yalıtımı',
     slug: 'su-yalitimi',
     icon: Shield,
-    desc: 'Teras, balkon, perde beton ve temel bohçalama su yalıtımı ile sızıntılara kesin çözüm.',
+    desc: 'Teras, balkon, perde beton ve temel bohçalama su yalıtımı ile uzun ömürlü su sızdırmazlık.',
     features: ['Kırmadan Teras İzolasyonu', 'Balkon Sızıntı Çözümleri', 'Perde Beton Nem Bariyeri']
   },
   {
@@ -580,7 +593,7 @@ const services = [
     slug: 'isi-yalitimi',
     icon: Flame,
     desc: 'Taşyünü ve EPS mantolama paket sistemleri ile faturalarda yüksek enerji tasarrufu ve konfor.',
-    features: ['Taşyünü & EPS Mantolama', '%50’ye Varan Tasarruf', 'Bina EKB Uyumlu Paket']
+    features: ['Taşyünü & EPS Mantolama', 'Yüksek Enerji Tasarrufu', 'Bina EKB Uyumlu Paket']
   },
   {
     title: 'Dekorasyon ve Tadilat',
@@ -591,20 +604,17 @@ const services = [
   }
 ]
 
-// Öncelikli İzmir İlçe Ağı (Yerel SEO Link Havuzu)
+// Öncelikli İzmir İlçe Ağı (Yerel SEO Link Havuzu - Tamamı Doğrulanmış Slugs)
 const priorityDistricts = [
-  { name: 'Karşıyaka', slug: 'karsiyaka-dekorasyon-tadilat', highlight: 'Asma Tavan & Boya' },
-  { name: 'Bornova', slug: 'bornova-boya-badana', highlight: 'Daire Tadilatı & Mantolama' },
-  { name: 'Urla', slug: 'urla-cati-izolasyonu', highlight: 'Villa Çatı & Teras İzolasyonu' },
-  { name: 'Çiğli', slug: 'cigli-alcipan-asma-tavan', highlight: 'Alçıpan & Cephe Boya' },
-  { name: 'Konak', slug: 'konak-daire-yenileme', highlight: 'Ofis & Ev Yenileme' },
-  { name: 'Buca', slug: 'buca-isi-yalitimi-mantolama', highlight: 'Bina Mantolama & Boya' },
-  { name: 'Gaziemir', slug: 'gaziemir-boya-tadilat', highlight: 'Boya Badana & Sıva' },
-  { name: 'Menemen', slug: 'menemen-cati-tamiri', highlight: 'Çatı Tamiri & Yalıtım' },
-  { name: 'Torbalı', slug: 'torbali-dis-cephe-mantolama', highlight: 'Dış Cephe & İzolasyon' },
-  { name: 'Bayraklı', slug: 'bayrakli-ofis-ev-tadilat', highlight: 'Ofis & Konut Dekorasyon' },
-  { name: 'Güzelbahçe', slug: 'guzelbahce-teras-su-yalitimi', highlight: 'Villa Renovasyon & Teras' },
-  { name: 'Narlıdere', slug: 'narlidere-boya-dekorasyon', highlight: 'İtalyan Boya & Alçı' }
+  { name: 'Karşıyaka', slug: 'karsiyaka', highlight: 'Asma Tavan & Boya' },
+  { name: 'Bornova', slug: 'bornova', highlight: 'Daire Tadilatı & Mantolama' },
+  { name: 'Urla', slug: 'urla', highlight: 'Villa Çatı & Teras İzolasyonu' },
+  { name: 'Çiğli', slug: 'cigli', highlight: 'Alçıpan & Cephe Boya' },
+  { name: 'Konak', slug: 'konak', highlight: 'Ofis & Ev Yenileme' },
+  { name: 'Buca', slug: 'buca', highlight: 'Bina Mantolama & Boya' },
+  { name: 'Gaziemir', slug: 'gaziemir', highlight: 'Boya Badana & Sıva' },
+  { name: 'Bayraklı', slug: 'bayrakli', highlight: 'Ofis & Konut Dekorasyon' },
+  { name: 'Çeşme', slug: 'cesme', highlight: 'Yazlık Çatı & İzolasyon' }
 ]
 
 // Quality Pillars
@@ -617,12 +627,12 @@ const qualityPillars = [
   {
     icon: ShieldCheck,
     title: 'TSE Standartlarında Malzeme',
-    description: 'Uygulamalarımızda kalitesi tescillenmiş, uzun ömürlü marka boya, alçı ve izolasyon ürünleri kullanırız. Ucuz ve dayanıksız malzemelere yer vermeyiz.'
+    description: 'Uygulamalarımızda kalitesi tescillenmiş, uzun ömürlü marka boya, alçı ve izolasyon ürünleri kullanırız. Standart dışı dayanıksız malzemelere yer vermeyiz.'
   },
   {
     icon: Clock,
-    title: 'Zamanında Teslim Sözü',
-    description: 'Anlaşılan iş takvimine ve bitiş tarihine harfiyen uyarız. Sürecin her adımında ev veya iş yeri sahibini düzenli olarak bilgilendiririz.'
+    title: 'Zamanında ve Planlı Teslim',
+    description: 'Anlaşılan iş takvimine ve bitiş tarihine sadık kalırız. Sürecin her adımında ev veya iş yeri sahibini düzenli olarak bilgilendiririz.'
   },
   {
     icon: Sparkles,
@@ -638,34 +648,6 @@ const qualityPillars = [
     icon: FileText,
     title: 'Yazılı İş Sözleşmesi',
     description: 'Yapılacak işlerin kapsamını, kullanılacak malzemeleri ve ödeme planını yazılı sözleşmeye bağlayarak karşılıklı güven inşa ederiz.'
-  }
-]
-
-// Demo / Placeholder Projects
-const demoProjects = [
-  {
-    title: 'Salon Asma Tavan & Gizli Aydınlatma',
-    location: 'Karşıyaka / İzmir',
-    category: 'Alçı & Boya',
-    image: '/images/hero-decoration.jpg',
-    desc: 'Modern alçıpan ışık bandı tavan tasarımı, saten alçı düzeltme ve silinebilir iç mekan boya uygulaması.',
-    duration: 'Tamamlanma Süresi: 6 Gün'
-  },
-  {
-    title: 'Villa Çatı İzolasyonu & Dış Mantolama',
-    location: 'Urla / İzmir',
-    category: 'İzolasyon & Çatı',
-    image: '/images/project-facade.jpg',
-    desc: 'Kiremit altı membran su izolasyonu ve 5 cm taşyünü dış cephe mantolama ile enerji verimliliği sağlandı.',
-    duration: 'Tamamlanma Süresi: 12 Gün'
-  },
-  {
-    title: 'Komple Daire Tadilatı & Zemin Duvar Uygulaması',
-    location: 'Bornova / İzmir',
-    category: 'Dekorasyon & Tadilat',
-    image: '/images/hero-decoration.jpg',
-    desc: 'Anahtar teslim ev tadilatı kapsamında alçıpan duvar bölme, İtalyan dekoratif boya ve aydınlatma revizyonu.',
-    duration: 'Tamamlanma Süresi: 18 Gün'
   }
 ]
 

@@ -41,6 +41,14 @@ const STATIC_DISTRICT_SLUGS = [
   'gaziemir'
 ]
 
+const STATIC_BLOG_SLUGS = [
+  'cati-izolasyonu-fiyatini-etkileyen-faktorler',
+  'mantolama-yatiriminin-geri-donusu',
+  'tavandan-su-sizmasinin-nedenleri',
+  'daire-tadilat-suresini-etkileyen-faktorler',
+  'boya-badana-maliyeti-nasil-hesaplanir'
+]
+
 export default defineEventHandler(async (event) => {
   const siteUrl = (process.env.SITE_URL || 'https://www.atalaylardekorasyon.com').replace(/\/$/, '')
   const today = new Date().toISOString().split('T')[0]
@@ -52,10 +60,11 @@ export default defineEventHandler(async (event) => {
     // 2. Ana Dizin ve Bölüm Sayfaları
     { loc: `${siteUrl}/hakkimizda`, lastmod: today, changefreq: 'monthly', priority: 0.9 },
     { loc: `${siteUrl}/hizmetlerimiz`, lastmod: today, changefreq: 'weekly', priority: 0.9 },
+    { loc: `${siteUrl}/fiyat-rehberi`, lastmod: today, changefreq: 'weekly', priority: 0.9 },
+    { loc: `${siteUrl}/blog`, lastmod: today, changefreq: 'weekly', priority: 0.9 },
     { loc: `${siteUrl}/bolgeler`, lastmod: today, changefreq: 'weekly', priority: 0.9 },
     { loc: `${siteUrl}/projeler`, lastmod: today, changefreq: 'weekly', priority: 0.9 },
     { loc: `${siteUrl}/galeri`, lastmod: today, changefreq: 'monthly', priority: 0.8 },
-    { loc: `${siteUrl}/musteri-yorumlari`, lastmod: today, changefreq: 'weekly', priority: 0.85 },
     { loc: `${siteUrl}/ucretsiz-kesif`, lastmod: today, changefreq: 'weekly', priority: 0.9 },
     { loc: `${siteUrl}/iletisim`, lastmod: today, changefreq: 'monthly', priority: 0.8 },
 
@@ -85,7 +94,17 @@ export default defineEventHandler(async (event) => {
     })
   }
 
-  // 5. Proje Sayfaları
+  // 6. Blog Rehber Makaleleri
+  for (const b of STATIC_BLOG_SLUGS) {
+    urls.push({
+      loc: `${siteUrl}/blog/${b}`,
+      lastmod: today,
+      changefreq: 'monthly',
+      priority: 0.8
+    })
+  }
+
+  // 7. Proje Sayfaları
   for (const p of STATIC_PROJECT_SLUGS) {
     urls.push({
       loc: `${siteUrl}/projeler/${p}`,

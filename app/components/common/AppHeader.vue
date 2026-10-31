@@ -50,9 +50,9 @@
         class="group flex items-center space-x-3 rounded-lg focus-visible:ring-2 focus-visible:ring-brand-gold"
         aria-label="Atalay Dekorasyon Ana Sayfa"
       >
-        <div class="relative flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-brand-gold/40 bg-brand-black p-1 shadow-gold-sm transition-transform group-hover:scale-105">
+        <div class="relative flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-brand-gold/40 bg-white p-1 shadow-gold-sm transition-transform group-hover:scale-105">
           <img
-            src="/favicon.svg"
+            src="/logo-icon.png"
             alt="Atalay Dekorasyon Logo"
             width="44"
             height="44"

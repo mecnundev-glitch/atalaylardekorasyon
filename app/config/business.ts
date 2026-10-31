@@ -3,8 +3,8 @@ import type { BusinessConfig } from '~/types/site'
 export const BUSINESS_CONFIG: BusinessConfig = {
   name: 'Atalay Dekorasyon',
   masterCraftsman: 'Mehmet Atalay (Mehmet Usta)',
-  tagline: 'Mehmet Usta Güvencesiyle İzmir Yapı, İzolasyon ve Anahtar Teslim Dekorasyon',
-  description: 'İzmir genelinde Mehmet Usta (Mehmet Atalay) öncülüğünde alçı, iç ve dış cephe boya, sıva, çatı izolasyonu, su ve ısı yalıtımı, komple anahtar teslim dekorasyon ve tadilat hizmetleri sunan güvenilir çözüm ortağınız.',
+  tagline: 'İzmir Genelinde Profesyonel Yapı, İzolasyon ve Tadilat Hizmetleri',
+  description: 'İzmir genelinde alçı, iç ve dış cephe boya, sıva, çatı izolasyonu, su ve ısı yalıtımı ile komple anahtar teslim tadilat hizmetleri sunan güvenilir çözüm ortağınız.',
   contact: {
     phone: '+905449978760',
     phoneFormatted: '+90 (544) 997 87 60',
@@ -44,8 +44,7 @@ export const MAIN_NAV_LINKS = [
     ]
   },
   { label: 'Hizmet Bölgeleri', to: '/bolgeler' },
-  { label: 'Projeler', to: '/projeler' },
-  { label: 'Galeri', to: '/galeri' },
-  { label: 'Müşteri Yorumları', to: '/musteri-yorumlari' },
+  { label: 'Fiyat Rehberi', to: '/fiyat-rehberi' },
+  { label: 'Blog', to: '/blog' },
   { label: 'İletişim', to: '/iletisim' }
 ]

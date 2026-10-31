@@ -1,5 +1,5 @@
 # ====================================================================
-# ATALAYLAR DEKORASYON — ARAMA MOTORU YÖNERGELERİ (ROBOTS.TXT)
+# ATALAY DEKORASYON — ARAMA MOTORU YÖNERGELERİ (ROBOTS.TXT)
 # ====================================================================
 
 User-agent: *

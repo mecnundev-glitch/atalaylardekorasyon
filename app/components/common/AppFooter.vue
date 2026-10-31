@@ -6,9 +6,9 @@
         <!-- Brand Summary -->
         <div class="space-y-4">
           <div class="flex items-center space-x-3">
-            <div class="relative flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-brand-gold/40 bg-brand-black p-1 shadow-gold-sm">
+            <div class="relative flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-brand-gold/40 bg-white p-1 shadow-gold-sm">
               <img
-                src="/favicon.svg"
+                src="/logo-icon.png"
                 alt="Atalay Dekorasyon Logo"
                 width="44"
                 height="44"
@@ -69,7 +69,10 @@
               <NuxtLink to="/galeri" class="transition-colors hover:text-brand-gold">Uygulama Galerisi</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/musteri-yorumlari" class="transition-colors hover:text-brand-gold">Müşteri Yorumları</NuxtLink>
+              <NuxtLink to="/fiyat-rehberi" class="transition-colors hover:text-brand-gold">Fiyat Rehberi</NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/blog" class="transition-colors hover:text-brand-gold">Blog & Rehberler</NuxtLink>
             </li>
             <li>
               <NuxtLink to="/ucretsiz-kesif" class="text-brand-gold hover:underline">Ücretsiz Keşif Formu</NuxtLink>

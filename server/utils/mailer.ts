@@ -18,15 +18,15 @@ export async function sendQuoteNotification(data: SendQuoteEmailOptions): Promis
   const smtpPort = Number(process.env.SMTP_PORT || (config as any).smtpPort || 465)
   const smtpUser = process.env.SMTP_USER || (config as any).smtpUser
   const smtpPass = process.env.SMTP_PASS || (config as any).smtpPass
-  const smtpFrom = process.env.SMTP_FROM || (config as any).smtpFrom || smtpUser || 'noreply@atalaylardekarasyon.com'
-  const targetEmail = process.env.NOTIFICATION_EMAIL || process.env.NUXT_PUBLIC_CONTACT_EMAIL || 'info@atalaylardekarasyon.com'
+  const smtpFrom = process.env.SMTP_FROM || (config as any).smtpFrom || smtpUser || 'noreply@atalaylardekorasyon.com'
+  const targetEmail = process.env.NOTIFICATION_EMAIL || process.env.NUXT_PUBLIC_CONTACT_EMAIL || 'info@atalaylardekorasyon.com'
 
   // Resend API desteği (opsiyonel)
   const resendApiKey = process.env.RESEND_API_KEY
 
   const now = new Date().toLocaleString('tr-TR', { timeZone: 'Europe/Istanbul' })
   const cleanPhone = data.phone.replace(/\D/g, '')
-  const whatsappReplyUrl = `https://wa.me/${cleanPhone.startsWith('90') ? cleanPhone : '90' + cleanPhone.replace(/^0/, '')}?text=${encodeURIComponent(`Merhaba ${data.fullName}, Atalaylar Dekorasyon'a yapmış olduğunuz keşif talebiniz (${data.referenceCode}) hakkında görüşmek istedik.`)}`
+  const whatsappReplyUrl = `https://wa.me/${cleanPhone.startsWith('90') ? cleanPhone : '90' + cleanPhone.replace(/^0/, '')}?text=${encodeURIComponent(`Merhaba ${data.fullName}, Atalay Dekorasyon'a yapmış olduğunuz keşif talebiniz (${data.referenceCode}) hakkında görüşmek istedik.`)}`
 
   const htmlContent = `
     <!DOCTYPE html>
@@ -103,7 +103,7 @@ export async function sendQuoteNotification(data: SendQuoteEmailOptions): Promis
           </div>
         </div>
         <div class="footer">
-          Bu bildirim atalaylardekarasyon.com web sitesi üzerinden gönderilmiştir.
+          Bu bildirim atalaylardekorasyon.com web sitesi üzerinden gönderilmiştir.
         </div>
       </div>
     </body>

@@ -177,6 +177,7 @@
                 <p>1. İzmir içindeki adresinize gelip <strong>ücretsiz yerinde keşif</strong> yapıyoruz.</p>
                 <p>2. İhtiyacınıza uygun malzeme alternatiflerini listeliyoruz.</p>
                 <p>3. Net metraj üzerinden <strong>şeffaf yazılı teklif</strong> hazırlıyoruz.</p>
+                <p class="pt-1 text-slate-300">Detaylı maliyet faktörlerini öğrenmek için <NuxtLink to="/fiyat-rehberi" class="text-brand-gold hover:underline font-semibold">Fiyat Rehberimizi inceleyin</NuxtLink>.</p>
               </div>
 
               <div class="mt-6">
@@ -380,7 +381,7 @@ const relatedProjects = computed(() => {
 
 // SEO, Canonical, Open Graph & Schema.org JSON-LD
 const canonicalPath = `/hizmetlerimiz/${service.slug}`
-const canonicalUrl = `https://atalaylardekarasyon.com${canonicalPath}`
+const canonicalUrl = `https://www.atalaylardekorasyon.com${canonicalPath}`
 
 useAppSeo({
   title: `${service.title} | İzmir Atalay Dekorasyon`,

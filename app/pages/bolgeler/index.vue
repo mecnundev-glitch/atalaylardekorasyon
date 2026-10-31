@@ -24,7 +24,7 @@
             İzmir <span class="bg-gradient-to-r from-brand-gold-light via-brand-gold to-brand-gold-muted bg-clip-text text-transparent">Hizmet Bölgelerimiz</span>
           </h1>
           <p class="mt-4 text-base leading-relaxed text-slate-300 sm:text-lg">
-            Atölyemiz ve merkezimiz <strong class="text-white">Bornova Mevlana Mahallesi</strong>'nde olmak üzere; Karşıyaka'dan Urla'ya, Konak'tan Çeşme'ye kadar İzmir'in tüm ilçelerinde iklim ve yapı özelliklerine özgü boya, alçı, çatı izolasyonu ve anahtar teslim tadilat hizmeti veriyoruz.
+            İzmir merkezli mobil keşif ekibimiz ve uzman ustalarımızla; Bornova'dan Karşıyaka'ya, Konak'tan Urla ve Çeşme'ye kadar İzmir'in tüm ilçelerinde yerinde keşif, yapı, yalıtım ve anahtar teslim tadilat hizmeti veriyoruz.
           </p>
         </div>
       </div>

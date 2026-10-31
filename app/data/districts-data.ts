@@ -34,11 +34,11 @@ export const DISTRICTS_DETAILED_DATA: DistrictDetail[] = [
     slug: 'bornova',
     name: 'Bornova',
     title: 'Bornova Boya Badana, Alçıpan & Komple Tadilat Ustası | Atalay Dekorasyon',
-    metaDescription: 'Bornova merkez ve Mevlana Mahallesindeki atölyemizden Evka 3, Kazımdirik, Erzene, Çamdibi dahil tüm Bornova mahallelerine aynı gün ücretsiz keşif, boya, alçı ve tadilat hizmeti.',
-    heroBadge: 'Atölye & Merkezimizin Bulunduğu İlçe',
-    summary: 'Atalay Dekorasyon merkezimiz Bornova Mevlana Mahallesi 1776/23 Sokak No:7 Daire:2 adresinde yer almaktadır. Mehmet Usta öncülüğünde Bornova’nın tüm semtlerine 30-45 dakika içinde ücretsiz keşif ve uzman ustalık sunuyoruz.',
+    metaDescription: 'Bornova genelinde Evka 3, Kazımdirik, Erzene, Çamdibi dahil tüm mahallelere yerinde ücretsiz keşif, boya badana, alçı ve anahtar teslim tadilat hizmeti.',
+    heroBadge: 'Bornova Yerinde Keşif & Tadilat',
+    summary: 'Atalay Dekorasyon, Mehmet Usta öncülüğünde Bornova\'nın tüm semtlerinde yerinde keşif yaparak; alçıpan, boya badana, çatı izolasyonu ve komple daire tadilatı hizmeti sunmaktadır.',
     neighborhoods: [
-      'Mevlana Mahallesi (Merkez Atölyemiz)',
+      'Mevlana Mahallesi',
       'Kazımdirik Mahallesi',
       'Erzene Mahallesi',
       'Evka 3 Mahallesi',
@@ -83,7 +83,7 @@ export const DISTRICTS_DETAILED_DATA: DistrictDetail[] = [
         description: 'Lazer terazili gizli ışık havuzları ve saten alçı duvar perdahı.'
       }
     ],
-    dispatchNote: 'Merkezimiz Bornova Mevlana Mahallesindedir. Bornova içi keşif taleplerinizde Mehmet Usta bizzat aynı gün adresinize gelip lazer metre ile ölçü alır.',
+    dispatchNote: 'Bornova içi keşif taleplerinizde Mehmet Usta adresinize gelerek lazer metre ile detaylı metraj ve keşif çalışması gerçekleştirir.',
     sampleProject: {
       title: 'Bornova 3+1 Daire Komple Tadilat ve İtalyan Boya',
       neighborhood: 'Mevlana & Kazımdirik bölgesi',
@@ -96,8 +96,8 @@ export const DISTRICTS_DETAILED_DATA: DistrictDetail[] = [
         answer: 'Hayır, Bornova’daki tüm mahallelerde yerinde keşif ve metraj çıkarma hizmetimiz tamamen ücretsizdir.'
       },
       {
-        question: 'Mevlana Mahallesindeki atölyenizi ziyaret edebilir miyiz?',
-        answer: 'Evet, Mevlana Mah. 1776/23 Sok. No:7 Daire:2 adresimize gelerek veya telefonla randevu alarak Mehmet Usta ile doğrudan görüşebilirsiniz.'
+        question: 'Hizmet almak için ofise gelmemiz gerekiyor mu?',
+        answer: 'Hayır. Sabit bir müşteri kabul ofisimiz bulunmamaktadır; mobil keşif modelimiz sayesinde doğrudan sizin evinize veya iş yerinize gelerek tüm keşif ve projelendirmeyi adresinizde yapıyoruz.'
       },
       {
         question: 'Bornova’da 3+1 daire boyası kaç gün sürer?',
@@ -517,7 +517,7 @@ export const DISTRICTS_DETAILED_DATA: DistrictDetail[] = [
         description: 'Teflon katkılı leke tutmaz boyalar ve kusursuz maskeleme.'
       }
     ],
-    dispatchNote: 'Bornova merkezimize komşu olan Bayraklı ilçesine 15-20 dakikada ücretsiz keşfe geliyoruz.',
+    dispatchNote: 'Bayraklı ilçesindeki tüm mahallelere kısa sürede ücretsiz keşfe gelerek yerinde inceleme yapıyoruz.',
     sampleProject: {
       title: 'Bayraklı Ofis ve Salon Alçıpan Işık Havuzu',
       neighborhood: 'Manavkuyu & Mansuroğlu',
@@ -527,7 +527,7 @@ export const DISTRICTS_DETAILED_DATA: DistrictDetail[] = [
     faqs: [
       {
         question: 'Bayraklı’ya ne kadar sürede keşfe gelebiliyorsunuz?',
-        answer: 'Mevlana Mahallesindeki merkezimizden Manavkuyu ve Mansuroğlu’na 15-20 dakikada ulaşıp yerinde inceleme yapabiliyoruz.'
+        answer: 'Bayraklı, Manavkuyu ve Mansuroğlu bölgelerine aynı gün içinde ulaşıp yerinde metraj ve hasar tespiti yapabiliyoruz.'
       }
     ]
   },

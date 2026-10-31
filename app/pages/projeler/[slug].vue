@@ -258,7 +258,7 @@ const breadcrumbItems = computed(() => [
 
 // SEO, Canonical, Open Graph & Schema.org JSON-LD
 const canonicalPath = `/projeler/${project.slug}`
-const canonicalUrl = `https://atalaylardekarasyon.com${canonicalPath}`
+const canonicalUrl = `https://www.atalaylardekorasyon.com${canonicalPath}`
 
 useAppSeo({
   title: `${project.title} | Atalay Dekorasyon`,

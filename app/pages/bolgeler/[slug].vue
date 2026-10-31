@@ -59,7 +59,7 @@
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs">
         <div class="flex items-center gap-2 text-slate-300">
           <MapPin class="h-4 w-4 shrink-0 text-brand-gold" />
-          <span><strong>Merkez Atölyemiz:</strong> Mevlana Mah. 1776/23 Sok. No:7 Daire:2 Bornova / İzmir</span>
+          <span><strong>Hizmet Modeli:</strong> Ofisimiz bulunmamakta olup, İzmir genelinde adresinize gelerek yerinde ücretsiz keşif sunuyoruz.</span>
         </div>
         <div class="text-brand-gold-light font-medium">
           {{ district.dispatchNote }}
@@ -163,48 +163,45 @@
           </div>
         </div>
 
-        <!-- 4. Bölgeden Gerçek Referans Uygulamamız -->
+        <!-- 4. İlçede Yerinde Keşif ve Hizmet Sürecimiz -->
         <div class="rounded-3xl border border-brand-anthracite-border bg-brand-anthracite/40 p-6 sm:p-8">
-          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-            <div class="lg:col-span-5 relative aspect-[4/3] rounded-2xl overflow-hidden border border-brand-anthracite-border">
-              <img
-                :src="district.sampleProject.image"
-                :alt="`${district.sampleProject.title} - Atalay Dekorasyon ${district.name}`"
-                loading="lazy"
-                decoding="async"
-                width="600"
-                height="450"
-                class="h-full w-full object-cover"
-              >
-              <span class="absolute top-3 left-3 rounded-full bg-brand-black/80 px-3 py-1 text-[11px] font-semibold text-brand-gold border border-brand-gold/30 backdrop-blur-md">
-                {{ district.sampleProject.neighborhood }}
-              </span>
-            </div>
-
-            <div class="lg:col-span-7 space-y-4">
-              <span class="text-xs font-semibold text-brand-gold uppercase tracking-wider">Bölgesel Referans</span>
-              <h3 class="font-display text-2xl font-bold text-white">
-                {{ district.sampleProject.title }}
-              </h3>
-              <p class="text-sm text-slate-300 leading-relaxed">
-                {{ district.sampleProject.description }}
-              </p>
-              <div class="pt-2 flex flex-wrap gap-3">
-                <NuxtLink
-                  to="/projeler"
-                  class="inline-flex items-center gap-1.5 rounded-xl border border-brand-anthracite-border bg-brand-anthracite px-4 py-2 text-xs font-semibold text-slate-200 hover:text-brand-gold hover:border-brand-gold/50 transition-colors"
-                >
-                  Tüm Projeleri İncele
-                  <ArrowRight class="h-3.5 w-3.5" />
-                </NuxtLink>
-                <NuxtLink
-                  to="/galeri"
-                  class="inline-flex items-center gap-1.5 rounded-xl border border-brand-anthracite-border bg-brand-anthracite px-4 py-2 text-xs font-semibold text-slate-200 hover:text-brand-gold hover:border-brand-gold/50 transition-colors"
-                >
-                  Şantiye Galerisine Git
-                  <ArrowRight class="h-3.5 w-3.5" />
-                </NuxtLink>
+          <div class="max-w-3xl space-y-4">
+            <span class="text-xs font-semibold text-brand-gold uppercase tracking-wider">Hizmet İşleyişi</span>
+            <h3 class="font-display text-2xl font-bold text-white">
+              {{ district.name }} İlçesinde Keşif ve Uygulama Nasıl İlerler?
+            </h3>
+            <p class="text-sm text-slate-300 leading-relaxed">
+              Atalay Dekorasyon olarak İzmir genelinde sabit bir müşteri ofisi işletmiyoruz; tüm operasyonumuzu doğrudan adresinize gelerek gezici keşif araçlarımızla yürütüyoruz. {{ district.name }}'deki yapınız için keşif talebinde bulunduğunuzda:
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
+              <div class="rounded-xl border border-brand-anthracite-border bg-brand-anthracite/60 p-4">
+                <span class="text-xs font-bold text-brand-gold">1. Yerinde İnceleme</span>
+                <p class="text-xs text-slate-300 mt-1">Lazer metre ile net alan ölçümü yapılır, yüzeydeki nem, çatlak veya yıpranma tespit edilir.</p>
               </div>
+              <div class="rounded-xl border border-brand-anthracite-border bg-brand-anthracite/60 p-4">
+                <span class="text-xs font-bold text-brand-gold">2. Şeffaf Metraj & Teklif</span>
+                <p class="text-xs text-slate-300 mt-1">İşçilik kalemleri ve TSE standartlarındaki malzeme markaları belirtilerek yazılı fiyat teklifi sunulur.</p>
+              </div>
+              <div class="rounded-xl border border-brand-anthracite-border bg-brand-anthracite/60 p-4">
+                <span class="text-xs font-bold text-brand-gold">3. Temiz & Planlı Teslim</span>
+                <p class="text-xs text-slate-300 mt-1">Belirlenen takvimde uygulama başlatılır, şantiye temizlenerek eksiksiz teslim edilir.</p>
+              </div>
+            </div>
+            <div class="pt-2 flex flex-wrap gap-3">
+              <NuxtLink
+                to="/fiyat-rehberi"
+                class="inline-flex items-center gap-1.5 rounded-xl border border-brand-anthracite-border bg-brand-anthracite px-4 py-2 text-xs font-semibold text-slate-200 hover:text-brand-gold hover:border-brand-gold/50 transition-colors"
+              >
+                Fiyat Nasıl Belirlenir?
+                <ArrowRight class="h-3.5 w-3.5" />
+              </NuxtLink>
+              <NuxtLink
+                to="/hizmetlerimiz"
+                class="inline-flex items-center gap-1.5 rounded-xl border border-brand-anthracite-border bg-brand-anthracite px-4 py-2 text-xs font-semibold text-slate-200 hover:text-brand-gold hover:border-brand-gold/50 transition-colors"
+              >
+                Tüm Hizmetlerimizi Gör
+                <ArrowRight class="h-3.5 w-3.5" />
+              </NuxtLink>
             </div>
           </div>
         </div>
@@ -242,7 +239,7 @@
               {{ district.name }} Yerinde Ücretsiz Keşif Randevusu Alın
             </h2>
             <p class="text-xs text-slate-300 mt-2">
-              Aşağıdaki formu doldurun, Mehmet Usta gün içinde sizi arasın ve {{ district.name }}'deki adresiniz için randevu saati belirleyelim.
+              Aşağıdaki formu doldurun, Atalay Dekorasyon ekibi aynı gün içinde sizi arasın ve {{ district.name }}'deki adresiniz için yerinde ücretsiz keşif randevusu saati belirleyelim.
             </p>
           </div>
 

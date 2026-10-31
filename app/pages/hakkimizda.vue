@@ -29,29 +29,45 @@
       </div>
     </div>
 
-    <!-- Stats Section -->
+    <!-- Value Pillars Section (Doğrulanmış Değerler) -->
     <section class="border-b border-brand-anthracite-border bg-brand-anthracite/40 py-10">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 text-center">
-          <div class="rounded-2xl border border-brand-anthracite-border bg-brand-black-soft/80 p-6">
-            <div class="font-display text-3xl sm:text-4xl font-extrabold text-brand-gold">15+</div>
-            <p class="mt-2 text-xs sm:text-sm font-semibold text-white">Yıllık Saha Tecrübesi</p>
-            <p class="mt-0.5 text-[11px] text-slate-400">İzmir ve Ege Bölgesi</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-left">
+          <div class="rounded-2xl border border-brand-anthracite-border bg-brand-black-soft/80 p-6 flex flex-col justify-between">
+            <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-anthracite border border-brand-gold/30 text-brand-gold mb-3">
+              <Search class="h-5 w-5" />
+            </div>
+            <div>
+              <h3 class="text-sm font-bold text-white">Yerinde Ücretsiz Keşif</h3>
+              <p class="mt-1 text-xs text-slate-300 leading-relaxed">İzmir genelinde adresinize gelerek lazer metre ile net alan ölçümü ve hasar tespiti yapıyoruz.</p>
+            </div>
           </div>
-          <div class="rounded-2xl border border-brand-anthracite-border bg-brand-black-soft/80 p-6">
-            <div class="font-display text-3xl sm:text-4xl font-extrabold text-brand-gold">450+</div>
-            <p class="mt-2 text-xs sm:text-sm font-semibold text-white">Tamamlanan Proje</p>
-            <p class="mt-0.5 text-[11px] text-slate-400">Daire, Villa ve Ofis</p>
+          <div class="rounded-2xl border border-brand-anthracite-border bg-brand-black-soft/80 p-6 flex flex-col justify-between">
+            <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-anthracite border border-brand-gold/30 text-brand-gold mb-3">
+              <ShieldCheck class="h-5 w-5" />
+            </div>
+            <div>
+              <h3 class="text-sm font-bold text-white">TSE Standartlarında Malzeme</h3>
+              <p class="mt-1 text-xs text-slate-300 leading-relaxed">Uygulamalarımızda yalnızca kalitesi tescilli, kendini kanıtlamış marka boya ve yalıtım ürünleri kullanıyoruz.</p>
+            </div>
           </div>
-          <div class="rounded-2xl border border-brand-anthracite-border bg-brand-black-soft/80 p-6">
-            <div class="font-display text-3xl sm:text-4xl font-extrabold text-brand-gold">%100</div>
-            <p class="mt-2 text-xs sm:text-sm font-semibold text-white">Sözleşmeli Teslim</p>
-            <p class="mt-0.5 text-[11px] text-slate-400">Ceza Şartlı Şeffaf Garanti</p>
+          <div class="rounded-2xl border border-brand-anthracite-border bg-brand-black-soft/80 p-6 flex flex-col justify-between">
+            <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-anthracite border border-brand-gold/30 text-brand-gold mb-3">
+              <FileText class="h-5 w-5" />
+            </div>
+            <div>
+              <h3 class="text-sm font-bold text-white">Yazılı İş Sözleşmesi</h3>
+              <p class="mt-1 text-xs text-slate-300 leading-relaxed">İşin kapsamını, teslim takvimini ve ödeme planını yazılı sözleşmeye bağlayarak sürprizleri önlüyoruz.</p>
+            </div>
           </div>
-          <div class="rounded-2xl border border-brand-anthracite-border bg-brand-black-soft/80 p-6">
-            <div class="font-display text-3xl sm:text-4xl font-extrabold text-brand-gold">30 İlçe</div>
-            <p class="mt-2 text-xs sm:text-sm font-semibold text-white">Yerinde Ücretsiz Keşif</p>
-            <p class="mt-0.5 text-[11px] text-slate-400">Aynı Gün veya 24 Saatte</p>
+          <div class="rounded-2xl border border-brand-anthracite-border bg-brand-black-soft/80 p-6 flex flex-col justify-between">
+            <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-anthracite border border-brand-gold/30 text-brand-gold mb-3">
+              <Sparkles class="h-5 w-5" />
+            </div>
+            <div>
+              <h3 class="text-sm font-bold text-white">Temiz ve Titiz Teslimat</h3>
+              <p class="mt-1 text-xs text-slate-300 leading-relaxed">Mobilya ve zeminleri koruyucu naylonlarla maskeliyor, iş bitiminde alanı süpürüp temiz teslim ediyoruz.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -323,7 +339,9 @@ import {
   Clock,
   Scale,
   CheckCheck,
-  UserCheck
+  UserCheck,
+  Search,
+  FileText
 } from 'lucide-vue-next'
 import AppBreadcrumb from '~/components/ui/AppBreadcrumb.vue'
 import AppBadge from '~/components/ui/AppBadge.vue'
